@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE7AD749-DD7D-AA20-7E7A-28D14F5DE3D6" name="Odeljenje">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 21:43:06 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Odeljenja" id="A3DDBEF8-60FB-543C-70B3-2D853094E3E0">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:20:58 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Banka_ID_Banke" id="B94A35C0-16CF-DE1B-8D7B-E15275FDE951">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:21:02 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1199EC78-83CF-720C-22F4-735C9F689DC0" referredColumn="DD06316F-7341-A002-3C8C-5033B6857C1D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="247D0B7C-D331-24AC-08F8-9B23FEC808FA" name="Odeljenje_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:20:58 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3DDBEF8-60FB-543C-70B3-2D853094E3E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="463D0F1D-BC7A-F1A1-30F7-943A9DCA2150" name="Odeljenje_Banka_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:21:02 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B94A35C0-16CF-DE1B-8D7B-E15275FDE951"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

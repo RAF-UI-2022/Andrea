@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58250B8D-0A79-91B7-BC3D-ED19C6E160B2" name="Token">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 21:50:46 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Tokena" id="623ACC2D-F91F-5B48-C0E5-30297A1A8273">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:52:29 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nalog_Korisnik_ID_Korisnika" id="3A43B5CA-9BC8-7CD6-A57D-38ADE8C66365">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:51:51 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFAA01EB-25E6-7124-7260-2405E024E5DF" referredColumn="14AEEDA9-EB01-8D81-02D2-FC39041F6BCE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC92B2B3-A974-C069-A5DA-877DF0E09513" name="Token_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:52:29 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="623ACC2D-F91F-5B48-C0E5-30297A1A8273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F29B10FC-9C49-2555-C1B7-6B477DADAD0C" name="Token_Nalog_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:51:51 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A43B5CA-9BC8-7CD6-A57D-38ADE8C66365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

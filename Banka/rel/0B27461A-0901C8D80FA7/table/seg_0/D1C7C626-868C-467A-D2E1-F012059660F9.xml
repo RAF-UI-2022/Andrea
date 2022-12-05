@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1C7C626-868C-467A-D2E1-F012059660F9" name="Povlastice">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 21:32:05 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Opis" id="9E328C65-3943-BA52-447B-A36BF9769492">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:42:25 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_ID_Korisnika" id="5A5C2811-693F-22D0-6B25-3B12CA4E5391">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:42:31 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="628302A1-13AF-AD64-D2B5-0A2F7AFCE5F9" referredColumn="02E3FCD7-2ACA-B0FC-E595-AF8A7696F016"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E1412EF-F47D-E736-8711-C354EADF9D24" name="Povlastice_Korisnik_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:42:31 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A5C2811-693F-22D0-6B25-3B12CA4E5391"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

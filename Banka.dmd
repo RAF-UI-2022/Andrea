@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Banka" id="FB443FE9-27B0-36D8-71E2-5FEBB798FD1C" version="3.5">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 15:28:54 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FB443FE9-27B0-36D8-71E2-5FEBB798FD1C</designId>
+</OSDM_Design>

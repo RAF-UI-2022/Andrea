@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E24A7170-4C16-F751-E5BD-5E4FC9EDCD63" containerWithKeyObject="1E28F110-A22F-95AE-678C-E28DC6D311A3" localFKIndex="E4F7B3C7-9D25-C262-FD4C-E52A9AAF7E31" name="Bankomat_Filijala_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:17:37 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Filijala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>162042E8-B76F-5432-83EE-BF17CEEAADFC</referredTableID>
+<keyObject>4FBE02F7-FFE4-AE4F-D53C-66C2701235FF</keyObject>
+<referredKeyID>4FBE02F7-FFE4-AE4F-D53C-66C2701235FF</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_Filijale</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

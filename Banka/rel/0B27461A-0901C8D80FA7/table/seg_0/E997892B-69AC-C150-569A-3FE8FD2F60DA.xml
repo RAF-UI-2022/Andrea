@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E997892B-69AC-C150-569A-3FE8FD2F60DA" name="Plata">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 21:40:30 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Obracun_plate_Zaposlen_ID" id="FCBFB0B7-CF04-7EF5-B399-DE8A0E27CA7B">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:23:52 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80FDB405-0EB9-7E6A-CB52-EE5DEA045CFD" referredColumn="7387F5ED-4EE3-1480-DA3B-6DE5852FA75D"/>
+</associations>
+</Column>
+<Column name="Iznos" id="F651E9C8-53A2-2FE9-9B48-EF9E7CE7D351">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:24:23 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5999BA2-0DF2-1096-F4EB-A73EB55A423C" name="Plata_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:24:23 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCBFB0B7-CF04-7EF5-B399-DE8A0E27CA7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="865900E0-A449-2B79-A11B-BA2295CCFF9E" name="Plata_Obracun_plate_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:23:52 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCBFB0B7-CF04-7EF5-B399-DE8A0E27CA7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

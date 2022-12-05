@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E28F110-A22F-95AE-678C-E28DC6D311A3" name="Bankomat">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 21:40:01 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Bankomata" id="2CFFCDB8-CBC6-DFA6-BE67-28504F64B13B">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:14:36 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filijala_ID_Filijale" id="392F9B26-3699-B826-540F-DBBCCBFF2CAF">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:17:37 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E24A7170-4C16-F751-E5BD-5E4FC9EDCD63" referredColumn="492CA34A-D1D6-8452-62F4-2CDB63C5B4A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90DCA438-414E-CB2E-0FC4-931DBC3E8BE7" name="Bankomat_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:14:36 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CFFCDB8-CBC6-DFA6-BE67-28504F64B13B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4F7B3C7-9D25-C262-FD4C-E52A9AAF7E31" name="Bankomat_Filijala_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:17:37 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="392F9B26-3699-B826-540F-DBBCCBFF2CAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

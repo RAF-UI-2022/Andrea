@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBA2476B-407C-95A2-F3FC-1DF21DE521D7" name="Jednokratna_lozinka">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 21:51:01 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Loznika" id="11A253BD-3E36-2158-21F2-A3CFC5308654">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:54:49 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Token_ID_Tokena" id="80E71B31-6B0F-B33A-3407-F5F435DD7A8E">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:53:28 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E796E7C-9204-7919-835D-530385E292BE" referredColumn="623ACC2D-F91F-5B48-C0E5-30297A1A8273"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72623CAD-504A-8C85-75C8-19EE4F80DF9A" name="Jednokratna_lozinka_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:53:43 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11A253BD-3E36-2158-21F2-A3CFC5308654"/>
+<colUsage columnID="80E71B31-6B0F-B33A-3407-F5F435DD7A8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08ABB61E-5AEA-5E53-E552-1503E5DE0A1B" name="Jednokratna_lozinka_Token_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:53:28 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80E71B31-6B0F-B33A-3407-F5F435DD7A8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

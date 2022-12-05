@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A1B89824-27E1-B812-C842-7CEF3A16C6AD" containerWithKeyObject="0D116E77-8DDD-672D-FD47-BAEA9CEC511E" localFKIndex="43E778FC-ACFE-C4E9-4C0B-3946955A9FEF" name="Placanje_Nalog_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:51:34 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Nalog</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F868D417-564F-7AD9-6F42-7EFD86D8DD77</referredTableID>
+<keyObject>E0AC8EAB-5C24-BD96-E559-B8C10146A39D</keyObject>
+<referredKeyID>E0AC8EAB-5C24-BD96-E559-B8C10146A39D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Korisnik_ID_Korisnika</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

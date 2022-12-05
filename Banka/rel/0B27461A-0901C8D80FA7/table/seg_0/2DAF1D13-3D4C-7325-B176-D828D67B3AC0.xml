@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DAF1D13-3D4C-7325-B176-D828D67B3AC0" name="Istorija_Transakcija">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 21:53:27 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Opis" id="C30B2C64-9BF6-38F5-44A3-B6F2F3A9FF8E">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:46:21 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transakcija_ID_Transakcije" id="0A71D113-3C54-08FB-CE67-D9699B14000B">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:48:03 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F1C2150-6784-2751-5386-BBCAA5EC4421" referredColumn="50613A1C-0B0A-DA5B-6D1E-AE30D7791BDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D983E608-901A-15D4-9B74-AADE2D2FC8C6" name="Istorija_Transakcija_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:48:13 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A71D113-3C54-08FB-CE67-D9699B14000B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0C4705E-DDA5-6565-E411-0E90D3497FA8" name="Istorija_Transakcija_Transakcija_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:48:03 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A71D113-3C54-08FB-CE67-D9699B14000B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

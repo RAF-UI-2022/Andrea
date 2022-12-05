@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E991CF92-9D5B-2CE9-A5ED-88686ACC9B79" name="Kredit">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 21:33:12 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Kredita" id="11C143B3-57BA-0F1D-907A-09C0F0C21116">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:45:35 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_ID_Korisnika" id="57764838-7BB4-9761-A667-07AC22BABB71">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:45:42 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E73E87B-02E5-76EC-7381-51D0F111BE58" referredColumn="02E3FCD7-2ACA-B0FC-E595-AF8A7696F016"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A252BF47-D476-2F32-27B4-92E3D208D7B5" name="Kredit_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:45:35 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11C143B3-57BA-0F1D-907A-09C0F0C21116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="460B346C-3560-0CFA-2695-425D273714CA" name="Kredit_Korisnik_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:45:42 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57764838-7BB4-9761-A667-07AC22BABB71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

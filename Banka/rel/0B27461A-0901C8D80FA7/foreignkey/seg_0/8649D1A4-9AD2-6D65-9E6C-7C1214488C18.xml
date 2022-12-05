@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8649D1A4-9AD2-6D65-9E6C-7C1214488C18" containerWithKeyObject="970753F4-8F25-D52A-D4DB-D9E88D5014A1" localFKIndex="9D11DB11-DAEF-EADB-A623-3850DBD996C1" name="Sef_Filijala_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:17:49 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Filijala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>162042E8-B76F-5432-83EE-BF17CEEAADFC</referredTableID>
+<keyObject>4FBE02F7-FFE4-AE4F-D53C-66C2701235FF</keyObject>
+<referredKeyID>4FBE02F7-FFE4-AE4F-D53C-66C2701235FF</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_Filijale</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

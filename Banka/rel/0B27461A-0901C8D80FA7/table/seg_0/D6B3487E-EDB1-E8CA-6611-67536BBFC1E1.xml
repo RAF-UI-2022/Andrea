@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6B3487E-EDB1-E8CA-6611-67536BBFC1E1" name="Cet">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 21:41:43 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Poruke" id="B6CD6F2D-6D9D-CC9F-3C46-A75884D215FC">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:36:59 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Podrska_ID_Podrske" id="F06AB64F-435A-A09A-C854-52F0F97FFAB4">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:37:40 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5C7B89F-19B1-0272-2668-077D4E49683C" referredColumn="247ABFAF-8DFA-FC96-FB70-A44AC1B15DF5"/>
+</associations>
+</Column>
+<Column name="Podrska_Banka_ID_Banke" id="3DB771A7-EB14-7179-0C68-05A6DF2929C4">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:40:01 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5C7B89F-19B1-0272-2668-077D4E49683C" referredColumn="FB90B169-AB30-AFA3-941C-1F08032F0ED5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B5398DB-BD5F-0A76-6B7F-A6EF668F35ED" name="Cet_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:38:08 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F06AB64F-435A-A09A-C854-52F0F97FFAB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4958E47A-FD69-C9AF-561F-607A3E761C10" name="Cet_Podrska_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:37:40 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F06AB64F-435A-A09A-C854-52F0F97FFAB4"/>
+<colUsage columnID="3DB771A7-EB14-7179-0C68-05A6DF2929C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

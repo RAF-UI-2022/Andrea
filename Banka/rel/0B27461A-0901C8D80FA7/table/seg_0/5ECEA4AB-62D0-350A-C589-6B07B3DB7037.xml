@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5ECEA4AB-62D0-350A-C589-6B07B3DB7037" name="Zaposlen">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 21:40:15 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zaposlenog" id="C2DD87DE-6D46-BB6B-A6B0-F82DCBED3E37">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:20:08 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Banka_ID_Banke" id="5F2BED46-A8F5-3BF2-8B51-8A9EFEEBFC34">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:20:19 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CCB47DD-6362-0D60-FA97-57891F6A263F" referredColumn="DD06316F-7341-A002-3C8C-5033B6857C1D"/>
+</associations>
+</Column>
+<Column name="Odeljenje_ID_Odeljenja" id="726DFE16-8544-694D-9DD0-A4BBD5DB4B53">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:21:38 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95C0CBF5-85F8-711D-0BDE-B92077CAC7DC" referredColumn="A3DDBEF8-60FB-543C-70B3-2D853094E3E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F212ACF-7617-EAE0-60F3-67EFB54ED226" name="Zaposlen_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:20:08 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2DD87DE-6D46-BB6B-A6B0-F82DCBED3E37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B189ABE7-AF44-298F-12D1-1B61550134DC" name="Zaposlen_Banka_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:20:19 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F2BED46-A8F5-3BF2-8B51-8A9EFEEBFC34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FDD2C97-11DB-BF60-7376-95B88ADFC947" name="Zaposlen_Odeljenje_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:21:38 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="726DFE16-8544-694D-9DD0-A4BBD5DB4B53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

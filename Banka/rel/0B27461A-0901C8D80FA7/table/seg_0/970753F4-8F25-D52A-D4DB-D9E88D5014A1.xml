@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="970753F4-8F25-D52A-D4DB-D9E88D5014A1" name="Sef">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 21:40:08 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Sefa" id="89076B9A-6883-18E4-ABB7-55BF052B4D5C">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:15:32 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vlasnik" id="04EB8B1F-4F12-BE13-4FE9-CACBE2691A11">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:15:32 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sifra" id="1CF538E8-7476-D2DC-CD49-79D3C3C8DCAA">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:15:32 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filijala_ID_Filijale" id="6E1FF162-C3AC-E9B0-085C-9B86B3026BB9">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:17:49 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8649D1A4-9AD2-6D65-9E6C-7C1214488C18" referredColumn="492CA34A-D1D6-8452-62F4-2CDB63C5B4A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DBE6885-8345-13B3-F61D-6A4E8A46174F" name="Sef_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:15:32 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89076B9A-6883-18E4-ABB7-55BF052B4D5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D11DB11-DAEF-EADB-A623-3850DBD996C1" name="Sef_Filijala_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:17:49 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E1FF162-C3AC-E9B0-085C-9B86B3026BB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
