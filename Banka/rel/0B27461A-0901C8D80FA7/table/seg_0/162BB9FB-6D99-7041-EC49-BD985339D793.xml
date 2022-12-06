@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="162BB9FB-6D99-7041-EC49-BD985339D793" name="Kartica">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:43:25 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Kartice" id="5BAEC7EC-AB8E-D39F-0A10-8AC850467DE5">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:43:52 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Racun_ID_Racuna" id="0ECE62CA-7255-24E0-E7DC-8460F55B9B0F">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:45:25 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C788150E-C6B0-F027-736E-A78C813FFD05" referredColumn="A7C24AA0-5AAE-79B1-5349-2D428E5565DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0FC8740-299E-76E3-DE8A-CE0E4105230B" name="Kartica_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:43:52 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BAEC7EC-AB8E-D39F-0A10-8AC850467DE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01FDDA18-E683-9500-E587-3C72BEFAAAA8" name="Kartica_Racun_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:45:25 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ECE62CA-7255-24E0-E7DC-8460F55B9B0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

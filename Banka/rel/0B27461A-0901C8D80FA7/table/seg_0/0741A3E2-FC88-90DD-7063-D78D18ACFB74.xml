@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0741A3E2-FC88-90DD-7063-D78D18ACFB74" name="Tip_Kartice">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:43:58 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kartica_ID_Kartice" id="99A0CC42-5EF4-5E13-D83D-AEDFB73E1792">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:45:42 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F2EBB69-DA0B-1CC1-DF10-503CC3FBC9EA" referredColumn="5BAEC7EC-AB8E-D39F-0A10-8AC850467DE5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E034004D-045A-99A8-5259-F57C2B162056" name="Tip_Kartice_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:44:29 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99A0CC42-5EF4-5E13-D83D-AEDFB73E1792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32A9AED4-4C29-288D-A994-9D321A6539ED" name="Tip_Kartice_Kartica_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:45:42 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99A0CC42-5EF4-5E13-D83D-AEDFB73E1792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

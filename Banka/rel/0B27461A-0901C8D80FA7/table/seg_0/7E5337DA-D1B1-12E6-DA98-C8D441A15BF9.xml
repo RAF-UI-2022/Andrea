@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E5337DA-D1B1-12E6-DA98-C8D441A15BF9" name="Trajanje">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:44:35 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kartica_ID_Kartice" id="8D142908-E7C9-6311-6C0F-A196D2BFEF5C">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:46:01 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F024711-833C-A2FA-F63B-14186A5B4E43" referredColumn="5BAEC7EC-AB8E-D39F-0A10-8AC850467DE5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCDD3A36-709F-29A7-317B-25586DA2C670" name="Trajanje_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:46:09 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D142908-E7C9-6311-6C0F-A196D2BFEF5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4414589A-4B29-5E33-E242-CC2C26E29FA2" name="Trajanje_Kartica_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-05 22:46:01 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D142908-E7C9-6311-6C0F-A196D2BFEF5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
