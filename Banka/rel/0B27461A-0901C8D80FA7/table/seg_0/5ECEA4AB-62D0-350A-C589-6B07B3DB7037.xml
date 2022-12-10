@@ -47,6 +47,20 @@
 <colAssociation fkAssociation="95C0CBF5-85F8-711D-0BDE-B92077CAC7DC" referredColumn="A3DDBEF8-60FB-543C-70B3-2D853094E3E0"/>
 </associations>
 </Column>
+<Column name="Pozicija_ID_Pozicije" id="51CEE866-7112-FE8D-89D6-AF84E67C277B">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-10 12:51:29 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E199C9A8-DA24-B413-32F4-699CB0831521" referredColumn="A45B5E1E-5397-2889-E0CB-C40A01C2A390"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2F212ACF-7617-EAE0-60F3-67EFB54ED226" name="Zaposlen_PK">
@@ -78,6 +92,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="726DFE16-8544-694D-9DD0-A4BBD5DB4B53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79AE8365-0A55-3867-D502-3260E0436394" name="Zaposlen_Pozicija_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-10 12:51:29 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51CEE866-7112-FE8D-89D6-AF84E67C277B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
