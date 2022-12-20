@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D116E77-8DDD-672D-FD47-BAEA9CEC511E" name="Placanje">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D116E77-8DDD-672D-FD47-BAEA9CEC511E" name="Uplatnica">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-04 21:49:54 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
@@ -18,11 +18,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nalog_Korisnik_ID_Korisnika" id="ADBA7230-D2BD-0BC7-6221-6E3047B0F61E">
+<Column name="Korisnik_ID_Korisnika" id="AFDC1BAF-F710-C290-D99F-FB64EE285DF6">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:51:34 UTC</createdTime>
+<createdTime>2022-12-20 11:15:51 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -30,8 +29,74 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A1B89824-27E1-B812-C842-7CEF3A16C6AD" referredColumn="14AEEDA9-EB01-8D81-02D2-FC39041F6BCE"/>
+<colAssociation fkAssociation="C5B3F61B-1E2A-6FA8-C9BC-3EC1A456441E" referredColumn="02E3FCD7-2ACA-B0FC-E595-AF8A7696F016"/>
 </associations>
+</Column>
+<Column name="Primalac" id="07695288-EE3B-CEB2-7E06-F25FD318809B">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:38:54 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Iznos" id="B1FED137-F154-C7E3-B079-C74415E6FDCC">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:38:54 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Svrha_uplate" id="B3D78E76-6069-C32C-2689-AB1D49E27831">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:38:54 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Racun" id="27627C9A-9AAA-F321-00D7-A4CBE3AB8081">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:40:23 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poziv_na_broj" id="B642D5A2-9103-811F-8853-AB5B51AE05BA">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:40:23 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sifra_placanja" id="A67FEE39-A249-4478-E563-A5CB91E576D7">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:40:23 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -46,14 +111,14 @@
 <colUsage columnID="7E90FB7F-3028-29C8-CF10-4D807DA2F683"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="43E778FC-ACFE-C4E9-4C0B-3946955A9FEF" name="Placanje_Nalog_FK">
+<ind_PK_UK id="6B8FD662-93D9-BE7C-D3B9-5AC9DD7F05E8" name="Uplatnica_Korisnik_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:51:34 UTC</createdTime>
+<createdTime>2022-12-20 11:15:51 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="ADBA7230-D2BD-0BC7-6221-6E3047B0F61E"/>
+<colUsage columnID="AFDC1BAF-F710-C290-D99F-FB64EE285DF6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

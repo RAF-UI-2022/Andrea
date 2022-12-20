@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="041BCD6D-3770-34E1-6F3D-A4CA17998DA2" name="Istorija_kartice">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:06:30 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Racun_ID_Racuna" id="DC17395C-C7F4-350B-B0F1-B0DA82691E6B">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:06:48 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3906EEA3-A89E-C1CE-8AD2-5FC0C48254FB" referredColumn="A7C24AA0-5AAE-79B1-5349-2D428E5565DA"/>
+</associations>
+</Column>
+<Column name="Kartica_ID_Kartice" id="415299B2-AC0D-2134-3184-93D1471C9328">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:06:53 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E89FE420-723A-70D8-4EC6-2C81308C2169" referredColumn="5BAEC7EC-AB8E-D39F-0A10-8AC850467DE5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AAE1F2D6-DF60-5D99-EDC5-5FD381D8F988" name="Istorija_kartice_Racun_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:06:48 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC17395C-C7F4-350B-B0F1-B0DA82691E6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5298B272-DBC6-ABD6-7121-1B002DAA6485" name="Istorija_kartice_Kartica_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:06:53 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="415299B2-AC0D-2134-3184-93D1471C9328"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -18,9 +18,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Filijala_ID_Filijale" id="9DBB5F39-0950-4ACB-9EC0-B9C0D7421A48">
+<Column name="prethodna_pozicija" id="7EB0266A-1528-F71D-F7F2-3FC0AFB76BD7">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-10 12:51:09 UTC</createdTime>
+<createdTime>2022-12-20 10:57:00 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="radno_mesto" id="BCC3B8C8-0BB4-830F-7BAD-6F142B909B05">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 10:57:00 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Odeljenje_ID_Odeljenja" id="601E2E3D-45AC-4011-9CBC-466E63CA65A3">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:01:13 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,7 +51,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="542DAE6B-A3B4-E954-3A5B-4057A0999172" referredColumn="492CA34A-D1D6-8452-62F4-2CDB63C5B4A2"/>
+<colAssociation fkAssociation="EBA68D04-E228-3F47-9B5C-A07A1B0BA921" referredColumn="A3DDBEF8-60FB-543C-70B3-2D853094E3E0"/>
 </associations>
 </Column>
 </columns>
@@ -45,14 +67,14 @@
 <colUsage columnID="A45B5E1E-5397-2889-E0CB-C40A01C2A390"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EB007A2B-6A9E-2920-67B2-A45133A8FF69" name="Pozicija_Filijala_FK">
+<ind_PK_UK id="44C35D90-F7CE-4881-AFF1-9C67FC36533F" name="Pozicija_Odeljenje_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-10 12:51:09 UTC</createdTime>
+<createdTime>2022-12-20 11:01:13 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9DBB5F39-0950-4ACB-9EC0-B9C0D7421A48"/>
+<colUsage columnID="601E2E3D-45AC-4011-9CBC-466E63CA65A3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E27066F3-69D1-7A09-BAF1-029BA0B8DFF9" name="Istorija_bankomata">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 10:54:55 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Bankomat_ID_Bankomata" id="45EF729D-6668-19E8-D33C-9E68F887753B">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 10:55:28 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA848F97-61D8-2684-223A-D0CB4CBB27BE" referredColumn="2CFFCDB8-CBC6-DFA6-BE67-28504F64B13B"/>
+</associations>
+</Column>
+<Column name="Lokacija_Filijala_ID_Filijale" id="8CDD4B72-1316-1666-AA89-6449D03ACA79">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 10:55:32 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02882949-359A-14D5-D649-ACFAE970C6E7" referredColumn="FEAA29F8-009A-1AD2-5E7D-FE7069032E63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F71DC43-4676-A0C4-2331-D860FDE2651F" name="Istorija_bankomata_Bankomat_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 10:55:28 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45EF729D-6668-19E8-D33C-9E68F887753B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7249A34-49F1-B346-1BD5-2452209F3EAE" name="Istorija_bankomata_Lokacija_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 10:55:32 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CDD4B72-1316-1666-AA89-6449D03ACA79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

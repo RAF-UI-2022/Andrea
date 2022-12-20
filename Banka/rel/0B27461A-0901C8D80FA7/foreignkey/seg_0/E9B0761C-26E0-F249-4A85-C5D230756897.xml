@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9B0761C-26E0-F249-4A85-C5D230756897" containerWithKeyObject="968FD070-1327-2A8F-C369-0D7EFF6C794A" localFKIndex="F7423589-23D9-06C7-353C-20315DAA8818" name="Tip_tokena_Token_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:15:00 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Token</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58250B8D-0A79-91B7-BC3D-ED19C6E160B2</referredTableID>
+<keyObject>FC92B2B3-A974-C069-A5DA-877DF0E09513</keyObject>
+<referredKeyID>FC92B2B3-A974-C069-A5DA-877DF0E09513</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Tokena</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

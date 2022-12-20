@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39D9FC51-8092-18CF-08FE-541DBE44DAD7" name="Kupovina">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:12:14 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_45</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Post_terminal_ID_terminala" id="115C8C95-562A-3D8D-9F91-DEE23A8B0FD3">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:12:25 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0BE8A0A-0E8A-CBE2-3C93-05D3B5AF92E7" referredColumn="2AB92279-E504-DF4C-83C9-2144F63F162D"/>
+</associations>
+</Column>
+<Column name="Transakcija_ID_Transakcije" id="B9D077FA-B4FE-68D4-559D-24EC6DFCE2C7">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:12:30 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA7AF032-26AA-FDFE-DE2F-AB9154D00907" referredColumn="50613A1C-0B0A-DA5B-6D1E-AE30D7791BDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11615BC1-D6EB-8AE4-E4CC-340B3BB97F7B" name="Kupovina_Post_terminal_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:12:25 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="115C8C95-562A-3D8D-9F91-DEE23A8B0FD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D947E341-6EBE-3992-AD78-695C0B95E284" name="Kupovina_Transakcija_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:12:30 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9D077FA-B4FE-68D4-559D-24EC6DFCE2C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -32,6 +32,45 @@
 <colAssociation fkAssociation="1199EC78-83CF-720C-22F4-735C9F689DC0" referredColumn="DD06316F-7341-A002-3C8C-5033B6857C1D"/>
 </associations>
 </Column>
+<Column name="Odeljenje_ID_Odeljenja" id="3B81D99F-B568-A9D6-8A22-97746CA1F7D0">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:00:43 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D2A8DBB-CFF5-DD37-B701-4B7C2B53AC4B" referredColumn="A3DDBEF8-60FB-543C-70B3-2D853094E3E0"/>
+</associations>
+</Column>
+<Column name="Verzija_ID_verzije" id="ABF50F49-7BDD-CF9A-AA53-0005A91CE2A3">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:02:36 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8501C86F-593B-1B65-3CFC-056E4A456BF1" referredColumn="2B752796-5B12-8EB6-6EDC-BCD8D92BEB31"/>
+</associations>
+</Column>
+<Column name="verzija" id="ADE32EB5-51BC-3BA0-3EA9-F96180CCFD81">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:03:01 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="247D0B7C-D331-24AC-08F8-9B23FEC808FA" name="Odeljenje_PK">
@@ -53,6 +92,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B94A35C0-16CF-DE1B-8D7B-E15275FDE951"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0448586-63FD-C5E3-7F2E-1F62DE98DE85" name="Odeljenje_Odeljenje_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:00:43 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B81D99F-B568-A9D6-8A22-97746CA1F7D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9A8A701-A20A-413F-5BAC-CA0FE7862FAE" name="Odeljenje_Verzija_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:02:36 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABF50F49-7BDD-CF9A-AA53-0005A91CE2A3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="162BB9FB-6D99-7041-EC49-BD985339D793" name="Kartica">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="856BA537-A3D4-DAF9-028D-A79F4BC61531" name="Verzija">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-05 22:43:25 UTC</createdTime>
+<createdTime>2022-12-20 11:01:34 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<ordsAlias>table_29</ordsAlias>
+<ordsAlias>table_39</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Kartice" id="5BAEC7EC-AB8E-D39F-0A10-8AC850467DE5">
+<Column name="ID_verzije" id="2B752796-5B12-8EB6-6EDC-BCD8D92BEB31">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-05 22:43:52 UTC</createdTime>
+<createdTime>2022-12-20 11:02:11 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,28 +18,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Trajanje_kartice" id="408EC4F0-BE15-A784-1296-6A2A11AFA4E1">
+<Column name="stara_verzija" id="6A8246F7-C989-3948-29EA-078FC0E8A15F">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:09:59 UTC</createdTime>
+<createdTime>2022-12-20 11:02:11 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F0FC8740-299E-76E3-DE8A-CE0E4105230B" name="Kartica_PK">
+<ind_PK_UK id="7EF8CE48-4723-8AC6-90E2-B1B584C49523" name="Verzija_PK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-05 22:43:52 UTC</createdTime>
+<createdTime>2022-12-20 11:02:11 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5BAEC7EC-AB8E-D39F-0A10-8AC850467DE5"/>
+<colUsage columnID="2B752796-5B12-8EB6-6EDC-BCD8D92BEB31"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

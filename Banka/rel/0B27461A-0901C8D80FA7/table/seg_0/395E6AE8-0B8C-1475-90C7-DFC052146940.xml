@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="395E6AE8-0B8C-1475-90C7-DFC052146940" name="Pravnno_lice">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:11:31 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_44</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_pravnog_lica" id="5315D6E8-90F0-2C28-BEA0-F0B49AC958FC">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:11:58 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C94BD10D-4F37-8979-E64B-582CF7D5EA36" name="Pravnno_lice_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:11:58 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5315D6E8-90F0-2C28-BEA0-F0B49AC958FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

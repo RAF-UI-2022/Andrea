@@ -18,6 +18,26 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Tip_korisnika" id="D464F8C1-A5D0-337F-35F6-3232D59AAE82">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:05:32 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="onilne_nalog" id="B17E7C35-810B-754C-6DAF-5A76B7E05591">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:16:12 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B141B3AE-C618-63CE-E7A0-C853C1E0B6BD" name="Korisnik_PK">

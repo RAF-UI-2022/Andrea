@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82C22893-DDDF-8C99-A3D7-F7EC3624B587" name="Sablon_placanja">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82C22893-DDDF-8C99-A3D7-F7EC3624B587" name="Sablon_uplatnice">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-06 13:29:42 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
@@ -29,8 +29,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_ID_Korisnika" id="D0C9C606-9B27-03CE-AD66-C737D9C319D8">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:15:39 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B8C45DE3-A459-6CE3-17F3-3D7F77A1C46F" referredColumn="14AEEDA9-EB01-8D81-02D2-FC39041F6BCE"/>
+<colAssociation fkAssociation="08C6E6BC-DE46-F44A-A426-307FE3FB758A" referredColumn="02E3FCD7-2ACA-B0FC-E595-AF8A7696F016"/>
 </associations>
 </Column>
 </columns>
@@ -46,14 +57,14 @@
 <colUsage columnID="D3E55940-4B38-D470-FE7C-A4B4D2D1E848"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D5624416-4BC3-7054-CA13-F359781D5FA1" name="Sablon_placanja_Nalog_FK">
+<ind_PK_UK id="E6593AF5-E00E-F32C-7242-F7C36714DAE7" name="Sablon_placanja_Korisnik_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-06 13:30:24 UTC</createdTime>
+<createdTime>2022-12-20 11:15:39 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="74EBB243-ED21-2BA0-4FD7-35FEFA1B5560"/>
+<colUsage columnID="D0C9C606-9B27-03CE-AD66-C737D9C319D8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

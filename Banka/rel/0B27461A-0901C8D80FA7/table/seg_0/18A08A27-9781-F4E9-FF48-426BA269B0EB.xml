@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18A08A27-9781-F4E9-FF48-426BA269B0EB" name="Tip_kredita">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:04:58 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_40</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kredit_ID_Kredita" id="630C145A-3C90-7A06-F5F5-52C586049958">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:05:10 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="842DA1F0-4DA7-FA49-CAD4-730790847B68" referredColumn="11C143B3-57BA-0F1D-907A-09C0F0C21116"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCAC583B-7BAB-4F2E-8911-4E9B6FE49845" name="Tip_kredita_Kredit_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:05:10 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="630C145A-3C90-7A06-F5F5-52C586049958"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

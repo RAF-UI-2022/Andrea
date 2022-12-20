@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A103D783-DBDB-C0DE-FFF6-C262DEAE59CE" containerWithKeyObject="F5C7FAC9-2D94-A2F3-040B-55AAC989058C" localFKIndex="C4262EF2-81D6-FDB3-C5BD-0950B2488F0E" name="Istorija_filijale_Lokacija_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 10:55:22 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Lokacija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A93545CF-26D2-C952-C5A0-9F2E5615EB5C</referredTableID>
+<keyObject>6AF658E4-E2F4-ECD9-6A36-2D5E9598F221</keyObject>
+<referredKeyID>6AF658E4-E2F4-ECD9-6A36-2D5E9598F221</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Filijala_ID_Filijale</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

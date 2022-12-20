@@ -61,9 +61,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="DA8F029C-9F0F-1B5E-F469-B801A0E9085A" referredColumn="492CA34A-D1D6-8452-62F4-2CDB63C5B4A2"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -73,16 +70,6 @@
 <ownerDesignName>Banka</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="FEAA29F8-009A-1AD2-5E7D-FE7069032E63"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D3D7D2CC-8A39-51A5-DEEC-D18CD50FF41D" name="Lokacija_Filijala_FK">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:19:07 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FEAA29F8-009A-1AD2-5E7D-FE7069032E63"/>

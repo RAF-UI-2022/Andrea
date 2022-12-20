@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B32BFA2A-E233-2DE5-6381-1DAC83F92578" containerWithKeyObject="58250B8D-0A79-91B7-BC3D-ED19C6E160B2" localFKIndex="EA9C234F-8817-3E16-CE09-0C9ECF7CB39A" name="Token_Uplatnica_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:15:46 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Uplatnica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D116E77-8DDD-672D-FD47-BAEA9CEC511E</referredTableID>
+<keyObject>63EA8655-43E7-9B05-34FF-F76E0EFFC24E</keyObject>
+<referredKeyID>63EA8655-43E7-9B05-34FF-F76E0EFFC24E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_placanja</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E1C7C84-858C-055B-2C54-92798668DD90" name="Radno_mesto">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:41:11 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_48</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Filijala_ID_Filijale" id="B4458047-7AC7-EB07-2527-4FD5217C6BE3">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:41:39 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B75FAD4A-8A8E-83EE-038E-CB73B8C355AC" referredColumn="492CA34A-D1D6-8452-62F4-2CDB63C5B4A2"/>
+</associations>
+</Column>
+<Column name="Zaposlen_ID_Zaposlenog" id="C4BE91C4-58E1-F797-0D14-94A05E00B64D">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:41:43 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A6BD328-7344-97DC-EDA1-A28ECCA35C2F" referredColumn="C2DD87DE-6D46-BB6B-A6B0-F82DCBED3E37"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DC7A4F6-2DAB-B88E-5083-971EF5F2FC83" name="Radno_mesto_PK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:41:54 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4BE91C4-58E1-F797-0D14-94A05E00B64D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62CFD984-C7DB-293A-FEF2-87776D198A29" name="Radno_mesto_Filijala_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:41:39 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4458047-7AC7-EB07-2527-4FD5217C6BE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B97F6B2-08DB-CD76-A0DD-9C694E04C2F7" name="Radno_mesto_Zaposlen_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:41:43 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4BE91C4-58E1-F797-0D14-94A05E00B64D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

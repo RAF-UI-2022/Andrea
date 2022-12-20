@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0BE8A0A-0E8A-CBE2-3C93-05D3B5AF92E7" containerWithKeyObject="39D9FC51-8092-18CF-08FE-541DBE44DAD7" localFKIndex="11615BC1-D6EB-8AE4-E4CC-340B3BB97F7B" name="Kupovina_Post_terminal_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:12:25 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Post_terminal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B025EA13-5C36-0975-24C2-A40617D565A3</referredTableID>
+<keyObject>7DC58BBB-1095-ACC9-6123-03BDB86991DB</keyObject>
+<referredKeyID>7DC58BBB-1095-ACC9-6123-03BDB86991DB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_terminala</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

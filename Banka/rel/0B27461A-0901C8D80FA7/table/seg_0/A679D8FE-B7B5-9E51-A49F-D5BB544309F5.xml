@@ -32,6 +32,34 @@
 <colAssociation fkAssociation="AB3CAF47-7CDB-4BB7-1F1C-C4FBE89EB3D9" referredColumn="5BAEC7EC-AB8E-D39F-0A10-8AC850467DE5"/>
 </associations>
 </Column>
+<Column name="Korisnik_ID_Korisnika" id="FE0B3423-1969-6BB5-8F4E-515CAF5E28DD">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:10:24 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42D7B16B-94CC-B304-7386-5BC5DA467074" referredColumn="02E3FCD7-2ACA-B0FC-E595-AF8A7696F016"/>
+</associations>
+</Column>
+<Column name="Racun_ID_Racuna" id="6C73005B-EA14-4FA6-2D8D-D71C8C079B36">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:10:42 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="260240CB-1FE9-7C84-069D-C9555C77D584" referredColumn="A7C24AA0-5AAE-79B1-5349-2D428E5565DA"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="A85A7E08-56AB-C4D4-7A46-F1B05AF5714C" name="Transakcija_PK">
@@ -53,6 +81,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F15FD178-C117-4624-D6B4-F6E05885954A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5046AEC0-9C36-88AA-5E5B-DB28F548704A" name="Transakcija_Korisnik_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:10:24 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE0B3423-1969-6BB5-8F4E-515CAF5E28DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1597D55-51BA-038D-2E79-A7403CC4FD0C" name="Transakcija_Racun_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:10:42 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C73005B-EA14-4FA6-2D8D-D71C8C079B36"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

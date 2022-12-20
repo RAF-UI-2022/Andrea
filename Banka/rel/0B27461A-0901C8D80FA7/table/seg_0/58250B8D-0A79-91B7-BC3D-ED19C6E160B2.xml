@@ -29,8 +29,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uplatnica_ID_placanja" id="98816557-FB7F-E442-647D-11E2E21AE069">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:15:46 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="AFAA01EB-25E6-7124-7260-2405E024E5DF" referredColumn="14AEEDA9-EB01-8D81-02D2-FC39041F6BCE"/>
+<colAssociation fkAssociation="B32BFA2A-E233-2DE5-6381-1DAC83F92578" referredColumn="7E90FB7F-3028-29C8-CF10-4D807DA2F683"/>
 </associations>
 </Column>
 </columns>
@@ -46,14 +57,14 @@
 <colUsage columnID="623ACC2D-F91F-5B48-C0E5-30297A1A8273"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F29B10FC-9C49-2555-C1B7-6B477DADAD0C" name="Token_Nalog_FK">
+<ind_PK_UK id="EA9C234F-8817-3E16-CE09-0C9ECF7CB39A" name="Token_Uplatnica_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:51:51 UTC</createdTime>
+<createdTime>2022-12-20 11:15:46 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3A43B5CA-9BC8-7CD6-A57D-38ADE8C66365"/>
+<colUsage columnID="98816557-FB7F-E442-647D-11E2E21AE069"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

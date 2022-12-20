@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="970753F4-8F25-D52A-D4DB-D9E88D5014A1" name="Sef">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B025EA13-5C36-0975-24C2-A40617D565A3" name="Post_terminal">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 21:40:08 UTC</createdTime>
+<createdTime>2022-12-20 11:10:53 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<ordsAlias>table_13</ordsAlias>
+<ordsAlias>table_43</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Sefa" id="89076B9A-6883-18E4-ABB7-55BF052B4D5C">
+<Column name="ID_terminala" id="2AB92279-E504-DF4C-83C9-2144F63F162D">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:15:32 UTC</createdTime>
+<createdTime>2022-12-20 11:11:21 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,22 +18,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Vlasnik" id="04EB8B1F-4F12-BE13-4FE9-CACBE2691A11">
+<Column name="Pravnno_lice_ID_pravnog_lica" id="ADC566D5-BBC2-E318-DDF3-22BFF16BF73F">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:15:32 UTC</createdTime>
+<createdTime>2022-12-20 11:12:02 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Filijala_ID_Filijale" id="6E1FF162-C3AC-E9B0-085C-9B86B3026BB9">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:17:49 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -41,30 +29,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8649D1A4-9AD2-6D65-9E6C-7C1214488C18" referredColumn="492CA34A-D1D6-8452-62F4-2CDB63C5B4A2"/>
+<colAssociation fkAssociation="B3EC0050-84DF-2765-1D70-73C8E75BA319" referredColumn="5315D6E8-90F0-2C28-BEA0-F0B49AC958FC"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0DBE6885-8345-13B3-F61D-6A4E8A46174F" name="Sef_PK">
+<ind_PK_UK id="7DC58BBB-1095-ACC9-6123-03BDB86991DB" name="Post_terminal_PK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:15:32 UTC</createdTime>
+<createdTime>2022-12-20 11:11:21 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="89076B9A-6883-18E4-ABB7-55BF052B4D5C"/>
+<colUsage columnID="2AB92279-E504-DF4C-83C9-2144F63F162D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9D11DB11-DAEF-EADB-A623-3850DBD996C1" name="Sef_Filijala_FK">
+<ind_PK_UK id="DA674A1A-C7B7-6C0C-2E3A-52B6857153A1" name="Post_terminal_Pravnno_lice_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:17:49 UTC</createdTime>
+<createdTime>2022-12-20 11:12:02 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6E1FF162-C3AC-E9B0-085C-9B86B3026BB9"/>
+<colUsage columnID="ADC566D5-BBC2-E318-DDF3-22BFF16BF73F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
