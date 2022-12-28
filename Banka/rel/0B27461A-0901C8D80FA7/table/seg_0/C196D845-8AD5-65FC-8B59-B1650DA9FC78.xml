@@ -32,6 +32,28 @@
 <colAssociation fkAssociation="8F285FDA-DF33-60E0-87A9-9549C8213287" referredColumn="50613A1C-0B0A-DA5B-6D1E-AE30D7791BDB"/>
 </associations>
 </Column>
+<Column name="Pocetni_Datum" id="70B668D6-FC19-29EC-2868-2E5CCB3E3C33">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:48:02 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zavrsni_Datum" id="27D050BE-DD75-79FE-17B8-9618E5E2E383">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:48:02 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0E7291E3-E57E-332E-E098-0B62BEAA6208" name="Stanje_PK">
@@ -42,7 +64,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="480AD9C3-8F25-007F-18FD-1217D604BEF5"/>
+<colUsage columnID="C3EFA066-B7B2-D4E7-1E54-33D93A0A0D4F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="57716524-07D1-3839-C9FD-AA016944AFC1" name="Stanje_Transakcija_FK">

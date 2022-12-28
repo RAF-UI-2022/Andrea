@@ -33,6 +33,17 @@
 <colAssociation fkAssociation="9E73E87B-02E5-76EC-7381-51D0F111BE58" referredColumn="02E3FCD7-2ACA-B0FC-E595-AF8A7696F016"/>
 </associations>
 </Column>
+<Column name="Status" id="423E58F1-9236-475A-BBC6-B3F0CFAC3802">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:44:19 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="A252BF47-D476-2F32-27B4-92E3D208D7B5" name="Kredit_PK">

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF7783A9-DE1B-6B02-B35C-BA6E971DAC88" containerWithKeyObject="7E0892AD-9568-A7EC-330D-716A5EEF10D0" localFKIndex="E535C5BC-F9B5-8AFE-6D03-F6D80D6DC2AA" name="Ovlascenje_Ovlasceno_lice_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:51:57 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Ovlasceno_lice</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>802FE868-B4BF-03A6-D7C5-CEF7C560E23D</referredTableID>
+<keyObject>087E157F-4A5F-F132-87DF-E20631B85BDF</keyObject>
+<referredKeyID>087E157F-4A5F-F132-87DF-E20631B85BDF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Ovlascenog</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

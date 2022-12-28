@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="96E34DC1-8245-E935-E559-0BA71AD31548" containerWithKeyObject="82C22893-DDDF-8C99-A3D7-F7EC3624B587" localFKIndex="1DDDBA4A-04F2-B76A-44F3-EE01C9978DBD" name="Sablon_uplatnice_Uplatnica_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:49:25 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Uplatnica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D116E77-8DDD-672D-FD47-BAEA9CEC511E</referredTableID>
+<keyObject>63EA8655-43E7-9B05-34FF-F76E0EFFC24E</keyObject>
+<referredKeyID>63EA8655-43E7-9B05-34FF-F76E0EFFC24E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_placanja</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

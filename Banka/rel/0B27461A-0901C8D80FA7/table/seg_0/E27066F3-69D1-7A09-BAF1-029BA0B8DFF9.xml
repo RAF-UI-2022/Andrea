@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E27066F3-69D1-7A09-BAF1-029BA0B8DFF9" name="Istorija_bankomata">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E27066F3-69D1-7A09-BAF1-029BA0B8DFF9" name="Bankomat_Lokacija">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-20 10:54:55 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
@@ -35,6 +35,40 @@
 <associations>
 <colAssociation fkAssociation="02882949-359A-14D5-D649-ACFAE970C6E7" referredColumn="FEAA29F8-009A-1AD2-5E7D-FE7069032E63"/>
 </associations>
+</Column>
+<Column name="Pocetni_Datum" id="6FD3E294-27AE-3520-32D3-DD01C036D3C5">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:41:39 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zavrsni_Datum" id="4522F8CF-2DD5-708F-8C5F-3DE819133AA0">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:41:39 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trenutna" id="E44810AE-77BB-E3A2-3431-4C1377A0C4EB">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:42:21 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

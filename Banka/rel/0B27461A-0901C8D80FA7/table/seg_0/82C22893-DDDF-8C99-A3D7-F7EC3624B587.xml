@@ -30,9 +30,9 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Korisnik_ID_Korisnika" id="D0C9C606-9B27-03CE-AD66-C737D9C319D8">
+<Column name="Uplatnica_ID_placanja" id="65B2FFDC-AB49-3E8C-CE28-C4EF155337E5">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:15:39 UTC</createdTime>
+<createdTime>2022-12-28 13:49:25 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,7 +41,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="08C6E6BC-DE46-F44A-A426-307FE3FB758A" referredColumn="02E3FCD7-2ACA-B0FC-E595-AF8A7696F016"/>
+<colAssociation fkAssociation="96E34DC1-8245-E935-E559-0BA71AD31548" referredColumn="7E90FB7F-3028-29C8-CF10-4D807DA2F683"/>
 </associations>
 </Column>
 </columns>
@@ -57,14 +57,14 @@
 <colUsage columnID="D3E55940-4B38-D470-FE7C-A4B4D2D1E848"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E6593AF5-E00E-F32C-7242-F7C36714DAE7" name="Sablon_placanja_Korisnik_FK">
+<ind_PK_UK id="1DDDBA4A-04F2-B76A-44F3-EE01C9978DBD" name="Sablon_uplatnice_Uplatnica_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:15:39 UTC</createdTime>
+<createdTime>2022-12-28 13:49:25 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D0C9C606-9B27-03CE-AD66-C737D9C319D8"/>
+<colUsage columnID="65B2FFDC-AB49-3E8C-CE28-C4EF155337E5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

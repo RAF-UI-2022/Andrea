@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0FD63499-7B98-00AA-A8A3-575D34BD3D63" containerWithKeyObject="7ECA9A6C-6C01-911E-21B5-B3EE9A8154CD" localFKIndex="8510FCCB-FD6F-8B77-6968-FE1DA252854B" name="Status_Kartica_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:48:42 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Kartica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>162BB9FB-6D99-7041-EC49-BD985339D793</referredTableID>
+<keyObject>F0FC8740-299E-76E3-DE8A-CE0E4105230B</keyObject>
+<referredKeyID>F0FC8740-299E-76E3-DE8A-CE0E4105230B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Kartice</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

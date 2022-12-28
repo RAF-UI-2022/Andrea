@@ -98,6 +98,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Racun_ID_Racuna" id="03C07EB1-8D62-D2CF-D8AA-A4D6C019047F">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:49:54 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54E7C52E-42EC-2430-8BC2-2A0120B2B014" referredColumn="A7C24AA0-5AAE-79B1-5349-2D428E5565DA"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="63EA8655-43E7-9B05-34FF-F76E0EFFC24E" name="Placanje_PK">
@@ -119,6 +133,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AFDC1BAF-F710-C290-D99F-FB64EE285DF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E9889D4-066E-6ABD-7547-D4927E00A6B6" name="Uplatnica_Racun_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:49:54 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03C07EB1-8D62-D2CF-D8AA-A4D6C019047F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

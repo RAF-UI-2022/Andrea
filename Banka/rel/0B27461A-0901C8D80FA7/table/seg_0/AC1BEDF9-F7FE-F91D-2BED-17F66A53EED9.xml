@@ -36,6 +36,17 @@
 <colAssociation fkAssociation="9ADCBE6D-07AF-B1E5-7F2C-5348ADCD6889" referredColumn="C2DD87DE-6D46-BB6B-A6B0-F82DCBED3E37"/>
 </associations>
 </Column>
+<Column name="Plata" id="38C123E4-066D-B81F-D725-D29833BC7F37">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:42:50 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4655A194-E6FF-3D6C-3D9A-13979E9A7113" name="Ugovor_zaposlenja_PK">

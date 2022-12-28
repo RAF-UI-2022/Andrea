@@ -18,6 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Kartica_ID_Kartice" id="4D055C23-80E8-F0D6-D33A-51ED5E6728D4">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:48:42 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FD63499-7B98-00AA-A8A3-575D34BD3D63" referredColumn="5BAEC7EC-AB8E-D39F-0A10-8AC850467DE5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="715552B5-65A2-955D-8EA3-02249D040A0F" name="Status_PK">
@@ -29,6 +43,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3AE7B19C-C047-6263-7524-5E851AF79D7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8510FCCB-FD6F-8B77-6968-FE1DA252854B" name="Status_Kartica_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:48:42 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D055C23-80E8-F0D6-D33A-51ED5E6728D4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

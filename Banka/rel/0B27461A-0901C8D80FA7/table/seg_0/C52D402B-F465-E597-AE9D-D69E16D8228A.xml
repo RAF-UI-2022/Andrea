@@ -1,27 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29C27328-D806-020B-DE5D-7BC4E2D4D83A" name="Istorija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C52D402B-F465-E597-AE9D-D69E16D8228A" name="Servis">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 21:49:03 UTC</createdTime>
+<createdTime>2022-12-28 13:43:51 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<ordsAlias>table_22</ordsAlias>
+<ordsAlias>table_39</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Opis" id="0C9092D4-754D-13AF-045E-270F7988301C">
+<Column name="Ugovor_ID_Ugovora" id="6895C469-C13E-2C2C-35D0-9643089A6497">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:41:47 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Korisnik_ID_Korisnika" id="140C4A4A-8577-FC6D-2C05-F76243D2C10A">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:41:53 UTC</createdTime>
+<createdTime>2022-12-28 13:43:56 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,30 +19,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C3AFD9C2-0E3A-7AB2-E417-37782BFA1B0D" referredColumn="02E3FCD7-2ACA-B0FC-E595-AF8A7696F016"/>
+<colAssociation fkAssociation="9602FC00-918F-F341-252D-C898A7987949" referredColumn="EC7AF55F-B340-178D-8808-101DBD4EDF55"/>
+</associations>
+</Column>
+<Column name="Korisnik_ID_Korisnika" id="923268A2-E54A-13F8-6508-5A9CF197B3D4">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:44:00 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDE7F440-1E95-EFDD-1EDD-C10EABC72636" referredColumn="02E3FCD7-2ACA-B0FC-E595-AF8A7696F016"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D392BEB4-63A9-2145-3358-5E5E04D497DA" name="Istorija_PK">
+<ind_PK_UK id="6FD87E73-7ED8-F803-9452-2E336AF0189C" name="Servis_Ugovor_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:42:02 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="140C4A4A-8577-FC6D-2C05-F76243D2C10A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3257A5C9-B793-DC22-F45C-E4D123749604" name="Istorija_Korisnik_FK">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:41:53 UTC</createdTime>
+<createdTime>2022-12-28 13:43:56 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="140C4A4A-8577-FC6D-2C05-F76243D2C10A"/>
+<colUsage columnID="6895C469-C13E-2C2C-35D0-9643089A6497"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DC46FC7-5FAB-163B-3321-EA9183AFF8FA" name="Servis_Korisnik_FK">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-28 13:44:00 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="923268A2-E54A-13F8-6508-5A9CF197B3D4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
