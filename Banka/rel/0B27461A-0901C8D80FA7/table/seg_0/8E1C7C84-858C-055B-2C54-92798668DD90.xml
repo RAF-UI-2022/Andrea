@@ -8,6 +8,40 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Naziv" id="5A9A2717-FCC5-E166-5CA1-C120D14D0186">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 12:58:00 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="E3BA73CD-BABC-EE4A-64C9-752D7A1E2FA5">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 12:58:00 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposlen_ID_Zaposlenog" id="C4BE91C4-58E1-F797-0D14-94A05E00B64D">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:41:43 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Filijala_ID_Filijale" id="B4458047-7AC7-EB07-2527-4FD5217C6BE3">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-20 11:41:39 UTC</createdTime>
@@ -21,17 +55,6 @@
 <associations>
 <colAssociation fkAssociation="B75FAD4A-8A8E-83EE-038E-CB73B8C355AC" referredColumn="492CA34A-D1D6-8452-62F4-2CDB63C5B4A2"/>
 </associations>
-</Column>
-<Column name="Zaposlen_ID_Zaposlenog" id="C4BE91C4-58E1-F797-0D14-94A05E00B64D">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:41:43 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Pozicija_ID_Pozicije" id="98B4072A-6556-85E4-48E7-0365AF4135EA">
 <createdBy>asus</createdBy>

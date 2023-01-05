@@ -18,20 +18,88 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Odeljenje_ID_Odeljenja" id="726DFE16-8544-694D-9DD0-A4BBD5DB4B53">
+<Column name="Ime" id="FFEBAF17-D543-E6B2-056D-F2F4D4CAB35D">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:21:38 UTC</createdTime>
+<createdTime>2023-01-05 12:52:23 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="95C0CBF5-85F8-711D-0BDE-B92077CAC7DC" referredColumn="A3DDBEF8-60FB-543C-70B3-2D853094E3E0"/>
-</associations>
+</Column>
+<Column name="Prezime" id="984C535A-70ED-8027-FDA5-6621A43B0963">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 12:52:23 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JMBG" id="579B62FB-C288-93FA-3C2E-8E44F03C1B70">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:22:59 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telfeon" id="147D5416-738D-D71F-B8EA-60C81728FB14">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 12:52:23 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="20D79C7E-0528-AB83-F9E5-2469C03136CE">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 12:52:23 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_rodjenja" id="64A0A474-609A-D647-15B9-CD67EB041800">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 12:53:39 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pol" id="2290518F-8B74-0A00-DA9E-B76FFBE3BBD1">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 12:53:39 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Pozicija_ID_Pozicije" id="51CEE866-7112-FE8D-89D6-AF84E67C277B">
 <createdBy>asus</createdBy>
@@ -45,6 +113,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="E199C9A8-DA24-B413-32F4-699CB0831521" referredColumn="A45B5E1E-5397-2889-E0CB-C40A01C2A390"/>
+</associations>
+</Column>
+<Column name="Odeljenje_ID_Odeljenja" id="726DFE16-8544-694D-9DD0-A4BBD5DB4B53">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:21:38 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95C0CBF5-85F8-711D-0BDE-B92077CAC7DC" referredColumn="A3DDBEF8-60FB-543C-70B3-2D853094E3E0"/>
 </associations>
 </Column>
 </columns>

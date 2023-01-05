@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A5CCB0F-5E98-D988-CD6C-AD2CBB4B7A78" name="Pozicija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4853154-BD1B-BEE3-1480-0DB7C96D722F" name="Bolovanje">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-10 12:50:12 UTC</createdTime>
+<createdTime>2023-01-05 13:06:58 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<ordsAlias>table_33</ordsAlias>
+<ordsAlias>table_46</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Pozicije" id="A45B5E1E-5397-2889-E0CB-C40A01C2A390">
+<Column name="Bolovanje_id" id="51F3039C-2BA1-BBD6-2280-9A1F79872CF2">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-10 12:51:04 UTC</createdTime>
+<createdTime>2023-01-05 13:07:59 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,43 +18,54 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv_pozicije" id="0222FD15-ABF3-C929-4347-74EE046741EA">
+<Column name="Aktivno" id="CC15BA14-F431-53BB-0D83-4236B17E3F95">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-05 12:57:01 UTC</createdTime>
+<createdTime>2023-01-05 13:08:36 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Opis" id="4A48FA15-AF9F-A9C4-19FA-0276FE3BF4BC">
+<Column name="Pocetak" id="F2DA2245-CE10-330A-4CA8-404EFDE83CCA">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-05 12:57:01 UTC</createdTime>
+<createdTime>2023-01-05 13:07:59 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Prethodna_pozicija" id="7EB0266A-1528-F71D-F7F2-3FC0AFB76BD7">
+<Column name="Zavrsetak" id="CAFD6E48-2918-FB5C-14EB-6B20C80C1EF0">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-20 10:57:00 UTC</createdTime>
+<createdTime>2023-01-05 13:07:59 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Odeljenje_ID_Odeljenja" id="601E2E3D-45AC-4011-9CBC-466E63CA65A3">
+<Column name="Cena_sata_tokom_bolovanja" id="482138F7-E3C8-2CF9-EE02-5DC5C4F5E008">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:01:13 UTC</createdTime>
+<createdTime>2023-01-05 13:07:59 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposlen_ID_Zaposlenog" id="59D340A5-FC88-8543-DBCE-79643990E0E2">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:08:06 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,30 +74,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="EBA68D04-E228-3F47-9B5C-A07A1B0BA921" referredColumn="A3DDBEF8-60FB-543C-70B3-2D853094E3E0"/>
+<colAssociation fkAssociation="A57A8E9D-2B98-D9FE-BBDC-E5FAE91F5EA1" referredColumn="C2DD87DE-6D46-BB6B-A6B0-F82DCBED3E37"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AD69E679-DED3-53D7-60D4-50EDA1377B71" name="Pozicija_PK">
+<ind_PK_UK id="DC98FEDE-F2F5-58DB-DA9D-8D0BE69A24A9" name="Bolovanje_PK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-10 12:51:04 UTC</createdTime>
+<createdTime>2023-01-05 13:07:59 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A45B5E1E-5397-2889-E0CB-C40A01C2A390"/>
+<colUsage columnID="51F3039C-2BA1-BBD6-2280-9A1F79872CF2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="44C35D90-F7CE-4881-AFF1-9C67FC36533F" name="Pozicija_Odeljenje_FK">
+<ind_PK_UK id="D92AE948-A81D-2F7C-36AA-65BE87CC0C9A" name="Bolovanje_Zaposlen_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:01:13 UTC</createdTime>
+<createdTime>2023-01-05 13:08:06 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="601E2E3D-45AC-4011-9CBC-466E63CA65A3"/>
+<colUsage columnID="59D340A5-FC88-8543-DBCE-79643990E0E2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

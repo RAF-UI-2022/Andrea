@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tip_id" id="0AB6AE88-F7B2-D2AF-696E-373EDF699190">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:43:49 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Kredit_ID_Kredita" id="630C145A-3C90-7A06-F5F5-52C586049958">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-20 11:05:10 UTC</createdTime>
@@ -24,6 +34,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4366D8A0-B9F8-89AB-A916-1C0FF8266968" name="Tip_kredita_PK">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:43:49 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AB6AE88-F7B2-D2AF-696E-373EDF699190"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="DCAC583B-7BAB-4F2E-8911-4E9B6FE49845" name="Tip_kredita_Kredit_FK">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-20 11:05:10 UTC</createdTime>

@@ -43,6 +43,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1E6917AF-5241-9932-207D-330C6A10C134"/>
+<colUsage columnID="AB933AC5-71E2-9DB9-B63A-40EE53014146"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="36834742-8B94-2A79-25F2-9AFE5924C9BB" name="Tip_racuna_Racun_FK">

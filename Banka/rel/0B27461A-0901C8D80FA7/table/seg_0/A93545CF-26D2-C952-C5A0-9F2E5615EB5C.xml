@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Grad" id="A134B78E-68EF-57FB-1F5F-6A2D62095241">
+<Column name="Drzava" id="D799D5FD-4EF4-8253-F1EB-FFB823BE5864">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:16:35 UTC</createdTime>
+<createdTime>2023-01-04 16:56:56 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -29,7 +29,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Adresa" id="66C5141F-1EB0-BB11-1331-1C8B4A39037B">
+<Column name="Grad" id="A134B78E-68EF-57FB-1F5F-6A2D62095241">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-04 23:16:35 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
@@ -48,6 +48,17 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="66C5141F-1EB0-BB11-1331-1C8B4A39037B">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:16:35 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -72,7 +83,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FEAA29F8-009A-1AD2-5E7D-FE7069032E63"/>
+<colUsage columnID="09365E8C-0C68-594A-DD1C-B62DB8BBBE45"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

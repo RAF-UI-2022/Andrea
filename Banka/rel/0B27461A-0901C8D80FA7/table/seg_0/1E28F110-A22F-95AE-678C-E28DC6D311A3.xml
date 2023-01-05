@@ -18,6 +18,41 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Tip" id="4EA6D42C-779C-3D5F-6055-5652C2E2DA7A">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-04 16:57:23 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stanje" id="B17965C0-44B2-4030-65AA-CA8415D91A55">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 12:04:52 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usluge" id="6FC8FB2C-30A6-2AF6-B579-A3447A1E376A">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 12:04:52 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Filijala_ID_Filijale" id="392F9B26-3699-B826-540F-DBBCCBFF2CAF">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-04 23:17:37 UTC</createdTime>

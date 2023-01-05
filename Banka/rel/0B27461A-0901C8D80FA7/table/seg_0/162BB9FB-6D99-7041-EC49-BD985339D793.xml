@@ -18,6 +18,42 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Ime_Prezime" id="63A32633-D04A-2E4C-F72C-926B55E77E61">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:28:53 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_kartice" id="86613285-9D11-D663-30E2-44C62E13C145">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:28:53 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cvc" id="18788930-B71A-A847-16FA-065DC0989966">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:28:53 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Trajanje_kartice" id="408EC4F0-BE15-A784-1296-6A2A11AFA4E1">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-20 11:09:59 UTC</createdTime>

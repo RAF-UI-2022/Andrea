@@ -44,6 +44,63 @@
 <colAssociation fkAssociation="96E34DC1-8245-E935-E559-0BA71AD31548" referredColumn="7E90FB7F-3028-29C8-CF10-4D807DA2F683"/>
 </associations>
 </Column>
+<Column name="Primalac" id="32057CD2-65F1-1ADF-CF97-4156053C65BF">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:37:14 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Svrha_uplate" id="3C2C9D83-9D63-E157-2ED3-64BA0798AD65">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:37:14 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Racun" id="90BF45DE-0F77-F523-A904-6126F54A1D47">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:37:14 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poziv_na_broj" id="FBD1B557-AD9A-5729-85DB-CFC3CD906628">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:37:14 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sifra_placanja" id="D1AC4F6B-79D6-E035-B7A8-02B01151E8F8">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:37:14 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="547AE05E-3769-AF47-DC56-26E29A9910EB" name="Sablon_placanja_PK">

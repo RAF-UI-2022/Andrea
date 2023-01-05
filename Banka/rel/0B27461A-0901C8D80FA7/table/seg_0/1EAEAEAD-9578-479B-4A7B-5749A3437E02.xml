@@ -8,6 +8,51 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Hipoteka_id" id="EADBFDDA-F643-9ABF-7EBF-BACEFD10E2DD">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:20:32 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="F5D510DF-A76A-C12E-0841-95A3B149FFCB">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:20:32 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip" id="856A960E-2190-32AB-DAC7-C5657D085312">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:25:05 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="4C5A60A6-92E9-E478-9135-ED6CBE7B1395">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:20:32 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Kredit_ID_Kredita" id="987C537E-BDAC-7414-C792-AA30847D0DB6">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-28 13:44:52 UTC</createdTime>
@@ -25,6 +70,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F04BADEB-DF0A-DFFF-23CE-299D96D1C94D" name="Hipoteka_PK">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:20:32 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EADBFDDA-F643-9ABF-7EBF-BACEFD10E2DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="85E2C307-2AF2-DF2A-A658-17B5DEC73AC8" name="Hipoteka_Kredit_FK">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-28 13:44:52 UTC</createdTime>

@@ -8,6 +8,28 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Artikli" id="9FDB13E0-408E-0CF2-28EF-2479ADCECB1B">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:31:08 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Suma" id="BE616070-5D32-8469-7D73-E8486288E2FA">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:31:08 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Post_terminal_ID_terminala" id="115C8C95-562A-3D8D-9F91-DEE23A8B0FD3">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-20 11:12:25 UTC</createdTime>

@@ -18,6 +18,29 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Naziv" id="0B2CC30F-4CB7-8014-B244-C273EBDFA9B1">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 12:55:50 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Verzija" id="ADE32EB5-51BC-3BA0-3EA9-F96180CCFD81">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:03:01 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Banka_ID_Banke" id="B94A35C0-16CF-DE1B-8D7B-E15275FDE951">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-04 23:21:02 UTC</createdTime>
@@ -59,17 +82,6 @@
 <associations>
 <colAssociation fkAssociation="8501C86F-593B-1B65-3CFC-056E4A456BF1" referredColumn="2B752796-5B12-8EB6-6EDC-BCD8D92BEB31"/>
 </associations>
-</Column>
-<Column name="verzija" id="ADE32EB5-51BC-3BA0-3EA9-F96180CCFD81">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:03:01 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

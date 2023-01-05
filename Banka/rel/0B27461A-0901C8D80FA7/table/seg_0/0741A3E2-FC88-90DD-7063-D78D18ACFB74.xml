@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tip_id" id="37498C75-D2D4-6FAE-18FB-9614C9B72998">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:27:26 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Kartica_ID_Kartice" id="99A0CC42-5EF4-5E13-D83D-AEDFB73E1792">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-05 22:45:42 UTC</createdTime>
@@ -33,6 +43,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="99A0CC42-5EF4-5E13-D83D-AEDFB73E1792"/>
+<colUsage columnID="37498C75-D2D4-6FAE-18FB-9614C9B72998"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="32A9AED4-4C29-288D-A994-9D321A6539ED" name="Tip_Kartice_Kartica_FK">

@@ -18,20 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Transakcija_ID_Transakcije" id="480AD9C3-8F25-007F-18FD-1217D604BEF5">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:13:36 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="8F285FDA-DF33-60E0-87A9-9549C8213287" referredColumn="50613A1C-0B0A-DA5B-6D1E-AE30D7791BDB"/>
-</associations>
-</Column>
 <Column name="Pocetni_Datum" id="70B668D6-FC19-29EC-2868-2E5CCB3E3C33">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-28 13:48:02 UTC</createdTime>
@@ -53,6 +39,20 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transakcija_ID_Transakcije" id="480AD9C3-8F25-007F-18FD-1217D604BEF5">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-20 11:13:36 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F285FDA-DF33-60E0-87A9-9549C8213287" referredColumn="50613A1C-0B0A-DA5B-6D1E-AE30D7791BDB"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

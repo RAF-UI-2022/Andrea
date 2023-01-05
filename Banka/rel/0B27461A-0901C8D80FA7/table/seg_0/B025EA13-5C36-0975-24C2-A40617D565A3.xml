@@ -32,6 +32,17 @@
 <colAssociation fkAssociation="B3EC0050-84DF-2765-1D70-73C8E75BA319" referredColumn="5315D6E8-90F0-2C28-BEA0-F0B49AC958FC"/>
 </associations>
 </Column>
+<Column name="Suma" id="064CED71-0CB0-0DA7-4B1D-5338F6F7DF55">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:29:56 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7DC58BBB-1095-ACC9-6123-03BDB86991DB" name="Post_terminal_PK">

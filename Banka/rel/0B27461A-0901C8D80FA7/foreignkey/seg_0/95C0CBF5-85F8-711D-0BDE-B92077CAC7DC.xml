@@ -8,7 +8,7 @@
 <referredTableID>EE7AD749-DD7D-AA20-7E7A-28D14F5DE3D6</referredTableID>
 <keyObject>247D0B7C-D331-24AC-08F8-9B23FEC808FA</keyObject>
 <referredKeyID>247D0B7C-D331-24AC-08F8-9B23FEC808FA</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>ID_Odeljenja</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

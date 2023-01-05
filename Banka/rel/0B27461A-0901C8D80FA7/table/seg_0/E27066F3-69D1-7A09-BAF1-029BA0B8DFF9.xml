@@ -22,20 +22,6 @@
 <colAssociation fkAssociation="AA848F97-61D8-2684-223A-D0CB4CBB27BE" referredColumn="2CFFCDB8-CBC6-DFA6-BE67-28504F64B13B"/>
 </associations>
 </Column>
-<Column name="Lokacija_Filijala_ID_Filijale" id="8CDD4B72-1316-1666-AA89-6449D03ACA79">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-20 10:55:32 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="02882949-359A-14D5-D649-ACFAE970C6E7" referredColumn="FEAA29F8-009A-1AD2-5E7D-FE7069032E63"/>
-</associations>
-</Column>
 <Column name="Pocetni_Datum" id="6FD3E294-27AE-3520-32D3-DD01C036D3C5">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-28 13:41:39 UTC</createdTime>
@@ -70,6 +56,20 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Lokacija_ID_Lokacije" id="F932F5E8-3572-9967-029F-F6615CAE455B">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:45:53 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02882949-359A-14D5-D649-ACFAE970C6E7" referredColumn="09365E8C-0C68-594A-DD1C-B62DB8BBBE45"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5F71DC43-4676-A0C4-2331-D860FDE2651F" name="Istorija_bankomata_Bankomat_FK">
@@ -89,7 +89,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8CDD4B72-1316-1666-AA89-6449D03ACA79"/>
+<colUsage columnID="F932F5E8-3572-9967-029F-F6615CAE455B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

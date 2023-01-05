@@ -8,17 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Tip" id="70038877-0729-DECA-2C83-84FC524DFD6F">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-04 23:38:58 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Podrska_ID_Podrske" id="555B965E-40FE-F4D0-C580-1BC344110440">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-04 23:39:08 UTC</createdTime>
@@ -32,6 +21,29 @@
 <associations>
 <colAssociation fkAssociation="77726734-C3F6-5DC4-E218-4FE1CAEF7E84" referredColumn="247ABFAF-8DFA-FC96-FB70-A44AC1B15DF5"/>
 </associations>
+</Column>
+<Column name="Tip" id="70038877-0729-DECA-2C83-84FC524DFD6F">
+<createdBy>asus</createdBy>
+<createdTime>2022-12-04 23:38:58 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Operater" id="3612B383-AD44-7C39-8035-126B5FA4A1DD">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:10:50 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Podrska_Banka_ID_Banke" id="FE772D91-1785-5079-74D4-C4297DDA3CCC">
 <createdBy>asus</createdBy>
