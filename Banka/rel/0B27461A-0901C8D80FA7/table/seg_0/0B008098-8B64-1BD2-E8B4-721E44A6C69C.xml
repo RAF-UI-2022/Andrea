@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B008098-8B64-1BD2-E8B4-721E44A6C69C" name="Broj_sati">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B008098-8B64-1BD2-E8B4-721E44A6C69C" name="Satnica">
 <createdBy>asus</createdBy>
 <createdTime>2023-01-04 16:46:15 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
@@ -8,35 +8,10 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Sati_id" id="EC5C37CF-D2BF-03B7-633F-882A707A9D6F">
+<Column name="id_satnica" id="EC5C37CF-D2BF-03B7-633F-882A707A9D6F">
 <createdBy>asus</createdBy>
 <createdTime>2023-01-04 16:46:52 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Zaposlen_ID_Zaposlenog" id="94DD299E-9D9B-6350-54CA-C43B5AC913D5">
-<createdBy>asus</createdBy>
-<createdTime>2023-01-04 16:46:55 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="5C2FF313-D218-6861-7D69-137C12701317" referredColumn="C2DD87DE-6D46-BB6B-A6B0-F82DCBED3E37"/>
-</associations>
-</Column>
-<Column name="Prekovremeni_rad" id="7FC53DCD-99A2-C7F4-2C9B-B352FE12813D">
-<createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:03:22 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -65,9 +40,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Bolovanje_Bolovanje_id" id="A2909DE3-A7EC-D058-3005-F036E13640BB">
+<Column name="Zaposlen_ID_Zaposlenog" id="4B88B655-B184-9B9D-2B9F-1B8E15F33F5F">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:08:15 UTC</createdTime>
+<createdTime>2023-01-29 21:27:46 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -76,7 +51,19 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1EFAC3D8-17E7-E546-003C-B72715D7D13D" referredColumn="51F3039C-2BA1-BBD6-2280-9A1F79872CF2"/>
+<colAssociation fkAssociation="E79D9BBD-40EE-434D-D1C4-84EBF37C7DCF" referredColumn="C2DD87DE-6D46-BB6B-A6B0-F82DCBED3E37"/>
+</associations>
+</Column>
+<Column name="Dnevna_satnica_Id_dnevnice" id="9F62E66F-528B-F2D9-AB70-350129E6571E">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-29 21:33:35 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="475DCD9C-39AA-CA53-D440-A3B343EF6F15" referredColumn="B8AA5754-067B-9FCE-6DB2-4F8965DEEFC0"/>
 </associations>
 </Column>
 </columns>
@@ -92,24 +79,24 @@
 <colUsage columnID="EC5C37CF-D2BF-03B7-633F-882A707A9D6F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A1631EF4-6AF1-54D8-3560-83B44C54202F" name="Broj_sati_Zaposlen_FK">
+<ind_PK_UK id="C237D8A7-F8AB-1720-215F-5D0D89B76833" name="Satnica_Zaposlen_FK">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-04 16:46:55 UTC</createdTime>
+<createdTime>2023-01-29 21:27:46 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="94DD299E-9D9B-6350-54CA-C43B5AC913D5"/>
+<colUsage columnID="4B88B655-B184-9B9D-2B9F-1B8E15F33F5F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="18C13DC0-708A-E677-8A59-AABDCC04AE3C" name="Broj_sati_Bolovanje_FK">
+<ind_PK_UK id="70ACA871-F4BA-1EB6-6C62-BACBA327BAE9" name="Satnica_Dnevna_satnica_FK">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:08:15 UTC</createdTime>
+<createdTime>2023-01-29 21:33:35 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A2909DE3-A7EC-D058-3005-F036E13640BB"/>
+<colUsage columnID="9F62E66F-528B-F2D9-AB70-350129E6571E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

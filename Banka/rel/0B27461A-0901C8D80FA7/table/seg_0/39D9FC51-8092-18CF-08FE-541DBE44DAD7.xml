@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_kupovine" id="D0A44ED6-E874-E280-EAF7-678E6AFEE791">
+<createdBy>asus</createdBy>
+<createdTime>2023-02-01 22:15:07 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Artikli" id="9FDB13E0-408E-0CF2-28EF-2479ADCECB1B">
 <createdBy>asus</createdBy>
 <createdTime>2023-01-05 13:31:08 UTC</createdTime>
@@ -60,6 +70,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75F977E6-8120-DD0F-8A54-CB5C38E74EAB" name="Kupovina_PK">
+<createdBy>asus</createdBy>
+<createdTime>2023-02-01 22:15:07 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0A44ED6-E874-E280-EAF7-678E6AFEE791"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="11615BC1-D6EB-8AE4-E4CC-340B3BB97F7B" name="Kupovina_Post_terminal_FK">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-20 11:12:25 UTC</createdTime>

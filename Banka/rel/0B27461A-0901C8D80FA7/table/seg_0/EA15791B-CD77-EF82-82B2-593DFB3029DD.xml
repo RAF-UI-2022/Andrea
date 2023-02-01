@@ -1,56 +1,46 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7ECA9A6C-6C01-911E-21B5-B3EE9A8154CD" name="Status">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA15791B-CD77-EF82-82B2-593DFB3029DD" name="Cet-Boot">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:06:59 UTC</createdTime>
+<createdTime>2023-01-27 17:26:57 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<ordsAlias>table_42</ordsAlias>
+<ordsAlias>table_18</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_statusa" id="3AE7B19C-C047-6263-7524-5E851AF79D7D">
+<Column name="Podrska_ID_Podrske" id="FC0E6B17-99C8-901D-43D2-29975D2AE2B0">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:07:40 UTC</createdTime>
+<createdTime>2023-01-27 17:26:57 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Pocetak" id="006B4366-AC39-5337-EB95-412B17A8B452">
+<Column name="Poruke" id="38C3B471-F0F0-E52B-0C0D-25C7CB82F690">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-27 17:20:51 UTC</createdTime>
+<createdTime>2023-01-27 17:26:57 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Zavrsetak" id="CD0D83BF-6ECA-78DF-D63E-43FB78547F45">
-<createdBy>asus</createdBy>
-<createdTime>2023-01-27 17:20:51 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="715552B5-65A2-955D-8EA3-02249D040A0F" name="Status_PK">
+<ind_PK_UK id="172BCE7F-D326-1263-C265-92C7B7E6B83E" name="Cetv1_PK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:07:40 UTC</createdTime>
+<createdTime>2023-01-27 17:26:57 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3AE7B19C-C047-6263-7524-5E851AF79D7D"/>
+<colUsage columnID="FC0E6B17-99C8-901D-43D2-29975D2AE2B0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

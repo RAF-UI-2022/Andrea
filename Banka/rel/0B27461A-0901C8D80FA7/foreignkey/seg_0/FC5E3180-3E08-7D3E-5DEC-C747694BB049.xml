@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FC5E3180-3E08-7D3E-5DEC-C747694BB049" containerWithKeyObject="89D4818E-0B08-11B1-EF81-9A118D1DF590" localFKIndex="59B8DB7C-7245-F0A2-F0F4-0E5D125C2535" name="Operater_Call_centar_FK">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:30:19 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Call_centar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E168C2DB-64E0-6C97-1899-DFCE84D8F2AB</referredTableID>
+<keyObject>123D8007-F024-50E6-0987-521EB1A2F89A</keyObject>
+<referredKeyID>123D8007-F024-50E6-0987-521EB1A2F89A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Podrska_ID_Podrske</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

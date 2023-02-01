@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89D4818E-0B08-11B1-EF81-9A118D1DF590" name="Operater">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:28:10 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<ordsAlias>table_51</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_operater" id="4287B6C1-6987-F0C5-AA75-6420C7A8EAE1">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:28:57 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime_Prezime" id="25983ADE-CABC-6285-A95A-6316A3DB5630">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:28:57 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ocena" id="0A87CBEB-DA22-E392-B91B-C206F65FD60F">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:28:57 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Podrska_ID_Podrske" id="23313A00-5FA9-C13D-BD18-66FEF92578CF">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:29:43 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1370B7A-23A5-DFA7-F753-55A7A59FB5EE" referredColumn="247ABFAF-8DFA-FC96-FB70-A44AC1B15DF5"/>
+</associations>
+</Column>
+<Column name="Podrska_Banka_ID_Banke" id="4A0CA590-2369-2DFB-9F4C-97D8454288EE">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:29:43 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1370B7A-23A5-DFA7-F753-55A7A59FB5EE" referredColumn="FB90B169-AB30-AFA3-941C-1F08032F0ED5"/>
+</associations>
+</Column>
+<Column name="Cet-Boot_Podrska_ID_Podrske" id="8B55BFA2-51D2-94E5-16F3-291FCEC6F5EC">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:30:05 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2665DB34-B801-4129-DB9B-99FB426FD2A0" referredColumn="FC0E6B17-99C8-901D-43D2-29975D2AE2B0"/>
+</associations>
+</Column>
+<Column name="Cet_Podrska_ID_Podrske" id="17308406-8159-8242-9B3F-AB14BD54A8DB">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:30:12 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B238155-0088-FA68-319F-634567064AE1" referredColumn="F06AB64F-435A-A09A-C854-52F0F97FFAB4"/>
+</associations>
+</Column>
+<Column name="Call_centar_Podrska_ID_Podrske" id="1B406EDB-A6F1-6A38-8D5C-BC0E3FC22245">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:30:19 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC5E3180-3E08-7D3E-5DEC-C747694BB049" referredColumn="555B965E-40FE-F4D0-C580-1BC344110440"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2BFD624-D1D1-3FD5-DDC2-FD674393A9CB" name="Operater_PK">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:31:16 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4287B6C1-6987-F0C5-AA75-6420C7A8EAE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFCDDC37-C7F5-1ABB-8525-7FB81A78771E" name="Operater_Podrska_FK">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:29:43 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23313A00-5FA9-C13D-BD18-66FEF92578CF"/>
+<colUsage columnID="4A0CA590-2369-2DFB-9F4C-97D8454288EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="407C08D6-03A1-C192-4C32-2D59F59DB291" name="Operater_Cet-Boot_FK">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:30:05 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B55BFA2-51D2-94E5-16F3-291FCEC6F5EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B81D1645-BFE7-9F0A-83CB-B851DFF60D64" name="Operater_Cet_FK">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:30:12 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17308406-8159-8242-9B3F-AB14BD54A8DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59B8DB7C-7245-F0A2-F0F4-0E5D125C2535" name="Operater_Call_centar_FK">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:30:19 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B406EDB-A6F1-6A38-8D5C-BC0E3FC22245"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

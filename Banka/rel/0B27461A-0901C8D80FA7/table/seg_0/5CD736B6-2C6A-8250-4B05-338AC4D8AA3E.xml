@@ -18,6 +18,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Bonusi" id="100ED097-03C0-3C3C-0DF1-CF9FF7D46EDC">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-05 13:03:42 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Zaposlen_ID_Zaposlenog" id="2AA16EF8-939E-267A-15D9-7A8FA09EE7BA">
 <createdBy>asus</createdBy>
 <createdTime>2023-01-04 16:48:30 UTC</createdTime>
@@ -31,17 +42,6 @@
 <associations>
 <colAssociation fkAssociation="CFE32547-681A-C5FA-E539-3F0A029F8060" referredColumn="C2DD87DE-6D46-BB6B-A6B0-F82DCBED3E37"/>
 </associations>
-</Column>
-<Column name="Bonusi" id="100ED097-03C0-3C3C-0DF1-CF9FF7D46EDC">
-<createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:03:42 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

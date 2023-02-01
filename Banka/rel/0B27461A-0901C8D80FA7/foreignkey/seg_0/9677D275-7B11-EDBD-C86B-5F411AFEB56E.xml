@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0FD63499-7B98-00AA-A8A3-575D34BD3D63" containerWithKeyObject="7ECA9A6C-6C01-911E-21B5-B3EE9A8154CD" localFKIndex="8510FCCB-FD6F-8B77-6968-FE1DA252854B" name="Status_Kartica_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9677D275-7B11-EDBD-C86B-5F411AFEB56E" containerWithKeyObject="AE4D944A-7E21-FA84-533E-425052A0FE4F" localFKIndex="523FD1D4-A15F-DC87-73FE-76CA9161E35E" name="Kartica_Status_Kartica_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-28 13:48:42 UTC</createdTime>
+<createdTime>2023-01-27 17:26:02 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <referredTableLongName>Kartica</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

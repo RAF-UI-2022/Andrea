@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="383C6ED8-2C1E-8AFA-1B15-40085D20FBFC" containerWithKeyObject="B7FF3459-F7B6-1E58-2BBA-C18BED566B70" localFKIndex="3F77FDD0-5C02-905D-3719-F53C8AB79D3E" name="Obracun_sati_Broj_sati_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="CBC1128C-0595-80E3-DA06-48BD07052F29" containerWithKeyObject="C4853154-BD1B-BEE3-1480-0DB7C96D722F" localFKIndex="D294D9A9-8D46-129E-A42E-329B02669840" name="Statusv-Aktivnost_Satnica_FK">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:01:02 UTC</createdTime>
+<createdTime>2023-01-29 21:23:56 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<referredTableLongName>Broj_sati</referredTableLongName>
+<referredTableLongName>Satnica</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>0B008098-8B64-1BD2-E8B4-721E44A6C69C</referredTableID>
 <keyObject>8022AC46-56FA-8545-DBFC-8F960F56C71C</keyObject>
 <referredKeyID>8022AC46-56FA-8545-DBFC-8F960F56C71C</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>Sati_id</refColNames>
+<refColNames>id_satnica</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

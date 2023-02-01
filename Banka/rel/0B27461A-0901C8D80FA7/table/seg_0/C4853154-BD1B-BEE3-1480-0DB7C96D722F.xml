@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4853154-BD1B-BEE3-1480-0DB7C96D722F" name="Bolovanje">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4853154-BD1B-BEE3-1480-0DB7C96D722F" name="Status-Aktivnost">
 <createdBy>asus</createdBy>
 <createdTime>2023-01-05 13:06:58 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Bolovanje_id" id="51F3039C-2BA1-BBD6-2280-9A1F79872CF2">
+<Column name="id_status" id="51F3039C-2BA1-BBD6-2280-9A1F79872CF2">
 <createdBy>asus</createdBy>
 <createdTime>2023-01-05 13:07:59 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
@@ -18,16 +18,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Aktivno" id="CC15BA14-F431-53BB-0D83-4236B17E3F95">
+<Column name="Naziv" id="41DF080F-82D8-093D-9FE2-ECD0002A9157">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:08:36 UTC</createdTime>
+<createdTime>2023-01-27 17:33:40 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Pocetak" id="F2DA2245-CE10-330A-4CA8-404EFDE83CCA">
@@ -52,7 +52,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Cena_sata_tokom_bolovanja" id="482138F7-E3C8-2CF9-EE02-5DC5C4F5E008">
+<Column name="Cena" id="482138F7-E3C8-2CF9-EE02-5DC5C4F5E008">
 <createdBy>asus</createdBy>
 <createdTime>2023-01-05 13:07:59 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
@@ -77,6 +77,20 @@
 <colAssociation fkAssociation="A57A8E9D-2B98-D9FE-BBDC-E5FAE91F5EA1" referredColumn="C2DD87DE-6D46-BB6B-A6B0-F82DCBED3E37"/>
 </associations>
 </Column>
+<Column name="Satnica_id_satnica" id="359F1AE2-2A82-FEA8-1093-A3E0CA88F356">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-29 21:23:56 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBC1128C-0595-80E3-DA06-48BD07052F29" referredColumn="EC5C37CF-D2BF-03B7-633F-882A707A9D6F"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DC98FEDE-F2F5-58DB-DA9D-8D0BE69A24A9" name="Bolovanje_PK">
@@ -98,6 +112,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="59D340A5-FC88-8543-DBCE-79643990E0E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D294D9A9-8D46-129E-A42E-329B02669840" name="Statusv-Aktivnost_Satnica_FK">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-29 21:23:56 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="359F1AE2-2A82-FEA8-1093-A3E0CA88F356"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

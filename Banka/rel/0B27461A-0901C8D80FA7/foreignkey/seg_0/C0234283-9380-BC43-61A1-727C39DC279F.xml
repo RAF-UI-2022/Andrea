@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDE7F440-1E95-EFDD-1EDD-C10EABC72636" containerWithKeyObject="C52D402B-F465-E597-AE9D-D69E16D8228A" localFKIndex="5DC46FC7-5FAB-163B-3321-EA9183AFF8FA" name="Servis_Korisnik_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0234283-9380-BC43-61A1-727C39DC279F" containerWithKeyObject="2678E0A5-A431-6E5A-E1C2-F84DD05498F3" localFKIndex="6D887006-5055-6E58-93C8-12C96A18FE90" name="Ugovor_Korisnik_Korisnik_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-28 13:44:00 UTC</createdTime>
+<createdTime>2023-01-27 17:21:38 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <referredTableLongName>Korisnik</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -77,6 +77,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Kamata" id="48E0475D-2EA4-2D4D-EDEB-0ED8A2421324">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:19:39 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Isplata_kredita" id="D7B8CCDC-A24F-E953-96A9-DDC7251AC961">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:19:39 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="A252BF47-D476-2F32-27B4-92E3D208D7B5" name="Kredit_PK">

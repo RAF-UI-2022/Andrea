@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="475DCD9C-39AA-CA53-D440-A3B343EF6F15" containerWithKeyObject="0B008098-8B64-1BD2-E8B4-721E44A6C69C" localFKIndex="70ACA871-F4BA-1EB6-6C62-BACBA327BAE9" name="Satnica_Dnevna_satnica_FK">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-29 21:33:35 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<referredTableLongName>Dnevna_satnica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D8BBC159-BF66-F8F6-1A90-C4E351F40843</referredTableID>
+<keyObject>6C32AB9A-0D80-63AB-427B-61C68896C2FF</keyObject>
+<referredKeyID>6C32AB9A-0D80-63AB-427B-61C68896C2FF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_dnevnice</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

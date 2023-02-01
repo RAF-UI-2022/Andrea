@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E0892AD-9568-A7EC-330D-716A5EEF10D0" name="Ovlascenje">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2678E0A5-A431-6E5A-E1C2-F84DD05498F3" name="Ugovor_Korisnik">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-28 13:51:48 UTC</createdTime>
+<createdTime>2023-01-27 17:21:21 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<ordsAlias>table_44</ordsAlias>
+<ordsAlias>table_46</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Ovlasceno_lice_ID_Ovlascenog" id="120E8866-B70A-715B-7845-44EF371A4EED">
+<Column name="Ugovor_ID_Ugovora" id="5DE64A6C-303E-68E5-FBCA-660752C2A262">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-28 13:51:57 UTC</createdTime>
+<createdTime>2023-01-27 17:21:35 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="AF7783A9-DE1B-6B02-B35C-BA6E971DAC88" referredColumn="52E46591-A9B9-7E24-5082-94B2698AF5FB"/>
+<colAssociation fkAssociation="2E81DCCA-5CFC-8931-2AAF-763BDEF73B69" referredColumn="EC7AF55F-B340-178D-8808-101DBD4EDF55"/>
 </associations>
 </Column>
-<Column name="Racun_ID_Racuna" id="B7D1932D-5059-0F2E-3750-F6DDB04EE131">
+<Column name="Korisnik_ID_Korisnika" id="FA62007C-59B2-0792-914E-78C38F4E3968">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-27 17:17:33 UTC</createdTime>
+<createdTime>2023-01-27 17:21:38 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,29 +33,29 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="25ADD304-4286-F4D4-7C76-AC37F3C85363" referredColumn="A7C24AA0-5AAE-79B1-5349-2D428E5565DA"/>
+<colAssociation fkAssociation="C0234283-9380-BC43-61A1-727C39DC279F" referredColumn="02E3FCD7-2ACA-B0FC-E595-AF8A7696F016"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E535C5BC-F9B5-8AFE-6D03-F6D80D6DC2AA" name="Ovlascenje_Ovlasceno_lice_FK">
+<ind_PK_UK id="12A7843D-BBF1-D817-60B7-FEE082028630" name="Ugovor_Korisnik_Ugovor_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-28 13:51:57 UTC</createdTime>
+<createdTime>2023-01-27 17:21:35 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="120E8866-B70A-715B-7845-44EF371A4EED"/>
+<colUsage columnID="5DE64A6C-303E-68E5-FBCA-660752C2A262"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C0FBB6E4-C90F-B7C7-609C-82CBDAE1D012" name="Ovlascenje_Racun_FK">
+<ind_PK_UK id="6D887006-5055-6E58-93C8-12C96A18FE90" name="Ugovor_Korisnik_Korisnik_FK">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-27 17:17:33 UTC</createdTime>
+<createdTime>2023-01-27 17:21:38 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B7D1932D-5059-0F2E-3750-F6DDB04EE131"/>
+<colUsage columnID="FA62007C-59B2-0792-914E-78C38F4E3968"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

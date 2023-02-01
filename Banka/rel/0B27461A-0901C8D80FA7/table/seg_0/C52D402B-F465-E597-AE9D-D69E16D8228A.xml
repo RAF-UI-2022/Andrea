@@ -29,34 +29,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Ugovor_ID_Ugovora" id="6895C469-C13E-2C2C-35D0-9643089A6497">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-28 13:43:56 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9602FC00-918F-F341-252D-C898A7987949" referredColumn="EC7AF55F-B340-178D-8808-101DBD4EDF55"/>
-</associations>
-</Column>
-<Column name="Korisnik_ID_Korisnika" id="923268A2-E54A-13F8-6508-5A9CF197B3D4">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-28 13:44:00 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="EDE7F440-1E95-EFDD-1EDD-C10EABC72636" referredColumn="02E3FCD7-2ACA-B0FC-E595-AF8A7696F016"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="BC64E5AB-F41B-CD59-928B-83505011B11F" name="Servis_PK">
@@ -68,26 +40,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="46F8C24E-EA67-D31C-27E9-0DD31194256E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="6FD87E73-7ED8-F803-9452-2E336AF0189C" name="Servis_Ugovor_FK">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-28 13:43:56 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="6895C469-C13E-2C2C-35D0-9643089A6497"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="5DC46FC7-5FAB-163B-3321-EA9183AFF8FA" name="Servis_Korisnik_FK">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-28 13:44:00 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="923268A2-E54A-13F8-6508-5A9CF197B3D4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

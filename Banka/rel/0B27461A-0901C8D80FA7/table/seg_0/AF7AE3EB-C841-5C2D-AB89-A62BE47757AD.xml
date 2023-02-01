@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7FF3459-F7B6-1E58-2BBA-C18BED566B70" name="Obracunski_interval">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF7AE3EB-C841-5C2D-AB89-A62BE47757AD" name="Objekat">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:00:44 UTC</createdTime>
+<createdTime>2023-01-27 17:23:28 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<ordsAlias>table_45</ordsAlias>
+<ordsAlias>table_48</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Obracun_id" id="6B6A9ED0-EA43-4862-1A1C-D51A428EAD98">
+<Column name="Id_Objekta" id="9B915C56-214F-7440-60E6-B134F2C3DACE">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:04:08 UTC</createdTime>
+<createdTime>2023-01-27 17:24:16 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,42 +18,33 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Pocetak_intervala" id="FDBA8DDD-B31C-1477-A9AF-E66D3F35B04D">
+<Column name="Naziv" id="F5D7C87B-B425-BBB8-0C81-421E36505432">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-27 17:36:27 UTC</createdTime>
+<createdTime>2023-01-27 17:24:16 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Zavrsetak_intervala" id="F744CFC4-BBE4-8FC4-A783-ACE67C2D7AF2">
+<Column name="Adresa" id="A89368A5-4FB6-5D10-DE0E-1F7FC1A48F6C">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-27 17:36:27 UTC</createdTime>
+<createdTime>2023-01-27 17:24:16 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Log" id="AE9602B3-429E-2B3C-14FE-87160F0FFA82">
+<Column name="Pravnno_lice_ID_pravnog_lica" id="63C780C6-D988-588D-AE01-B3486396E05B">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:02:06 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Obracun_plate_Obracun" id="284851BF-DD76-A4BD-6828-E2684A804BF0">
-<createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:04:38 UTC</createdTime>
+<createdTime>2023-01-27 17:24:58 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,30 +53,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B43B5518-67AC-5160-8EFB-3728F9C5E842" referredColumn="EDE57281-D511-455B-5D99-2584506BDA04"/>
+<colAssociation fkAssociation="DEB8B1D7-4CED-C488-A769-67067681BB60" referredColumn="5315D6E8-90F0-2C28-BEA0-F0B49AC958FC"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0124DBC7-08AE-EA4B-C9C0-0DBA56AFF762" name="Obracun_sati_PK">
+<ind_PK_UK id="D7647299-CFCC-72A7-1945-10494B75714D" name="Objekat_PK">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:04:08 UTC</createdTime>
+<createdTime>2023-01-27 17:24:16 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6B6A9ED0-EA43-4862-1A1C-D51A428EAD98"/>
+<colUsage columnID="9B915C56-214F-7440-60E6-B134F2C3DACE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EB219077-93FF-0359-49CA-69EA9A781C57" name="Obracun_sati_Obracun_plate_FK">
+<ind_PK_UK id="1BC85332-249B-72E6-5BEF-2C5D48936158" name="Objekat_Pravnno_lice_FK">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-05 13:04:38 UTC</createdTime>
+<createdTime>2023-01-27 17:24:58 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="284851BF-DD76-A4BD-6828-E2684A804BF0"/>
+<colUsage columnID="63C780C6-D988-588D-AE01-B3486396E05B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

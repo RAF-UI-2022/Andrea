@@ -18,20 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Pravnno_lice_ID_pravnog_lica" id="ADC566D5-BBC2-E318-DDF3-22BFF16BF73F">
-<createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:12:02 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B3EC0050-84DF-2765-1D70-73C8E75BA319" referredColumn="5315D6E8-90F0-2C28-BEA0-F0B49AC958FC"/>
-</associations>
-</Column>
 <Column name="Suma" id="064CED71-0CB0-0DA7-4B1D-5338F6F7DF55">
 <createdBy>asus</createdBy>
 <createdTime>2023-01-05 13:29:56 UTC</createdTime>
@@ -42,6 +28,20 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Objekat_Id_Objekta" id="E7926E3E-E416-DB3B-3BFD-A694425ECAD2">
+<createdBy>asus</createdBy>
+<createdTime>2023-01-27 17:24:51 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52D2B4F2-D331-2554-D1C4-EF9F65FA3895" referredColumn="9B915C56-214F-7440-60E6-B134F2C3DACE"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -56,14 +56,14 @@
 <colUsage columnID="2AB92279-E504-DF4C-83C9-2144F63F162D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DA674A1A-C7B7-6C0C-2E3A-52B6857153A1" name="Post_terminal_Pravnno_lice_FK">
+<ind_PK_UK id="7962A77C-0DF5-5B56-4CC7-474A7F74F346" name="Post_terminal_Objekat_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:12:02 UTC</createdTime>
+<createdTime>2023-01-27 17:24:51 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="ADC566D5-BBC2-E318-DDF3-22BFF16BF73F"/>
+<colUsage columnID="E7926E3E-E416-DB3B-3BFD-A694425ECAD2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

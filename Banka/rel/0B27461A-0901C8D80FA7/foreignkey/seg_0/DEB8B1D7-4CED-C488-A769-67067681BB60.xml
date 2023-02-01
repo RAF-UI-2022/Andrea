@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3EC0050-84DF-2765-1D70-73C8E75BA319" containerWithKeyObject="B025EA13-5C36-0975-24C2-A40617D565A3" localFKIndex="DA674A1A-C7B7-6C0C-2E3A-52B6857153A1" name="Post_terminal_Pravnno_lice_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DEB8B1D7-4CED-C488-A769-67067681BB60" containerWithKeyObject="AF7AE3EB-C841-5C2D-AB89-A62BE47757AD" localFKIndex="1BC85332-249B-72E6-5BEF-2C5D48936158" name="Objekat_Pravnno_lice_FK">
 <createdBy>asus</createdBy>
-<createdTime>2022-12-20 11:12:02 UTC</createdTime>
+<createdTime>2023-01-27 17:24:58 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <referredTableLongName>Pravnno_lice</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

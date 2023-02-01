@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5C2FF313-D218-6861-7D69-137C12701317" containerWithKeyObject="0B008098-8B64-1BD2-E8B4-721E44A6C69C" localFKIndex="A1631EF4-6AF1-54D8-3560-83B44C54202F" name="Broj_sati_Zaposlen_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="E79D9BBD-40EE-434D-D1C4-84EBF37C7DCF" containerWithKeyObject="0B008098-8B64-1BD2-E8B4-721E44A6C69C" localFKIndex="C237D8A7-F8AB-1720-215F-5D0D89B76833" name="Satnica_Zaposlen_FK">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-04 16:46:55 UTC</createdTime>
+<createdTime>2023-01-29 21:27:46 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <referredTableLongName>Zaposlen</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
