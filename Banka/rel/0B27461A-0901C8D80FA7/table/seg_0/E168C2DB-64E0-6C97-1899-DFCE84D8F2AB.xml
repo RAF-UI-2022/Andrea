@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_poziva" id="32B47738-563B-446B-C1FA-689DCC05A369">
+<createdBy>asus</createdBy>
+<createdTime>2023-02-07 22:26:36 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Podrska_ID_Podrske" id="555B965E-40FE-F4D0-C580-1BC344110440">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-04 23:39:08 UTC</createdTime>
@@ -40,7 +50,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="555B965E-40FE-F4D0-C580-1BC344110440"/>
+<colUsage columnID="32B47738-563B-446B-C1FA-689DCC05A369"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_ceta" id="DC6BC267-1D61-D90D-6346-CE1F3883A6BA">
+<createdBy>asus</createdBy>
+<createdTime>2023-02-07 22:26:06 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Podrska_ID_Podrske" id="F06AB64F-435A-A09A-C854-52F0F97FFAB4">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-04 23:37:40 UTC</createdTime>
@@ -40,7 +50,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F06AB64F-435A-A09A-C854-52F0F97FFAB4"/>
+<colUsage columnID="DC6BC267-1D61-D90D-6346-CE1F3883A6BA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

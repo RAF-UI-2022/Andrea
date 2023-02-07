@@ -69,9 +69,9 @@
 <colAssociation fkAssociation="B1370B7A-23A5-DFA7-F753-55A7A59FB5EE" referredColumn="FB90B169-AB30-AFA3-941C-1F08032F0ED5"/>
 </associations>
 </Column>
-<Column name="Cet-Boot_Podrska_ID_Podrske" id="8B55BFA2-51D2-94E5-16F3-291FCEC6F5EC">
+<Column name="Cet_Id_ceta" id="4B8FB643-070F-16A2-8371-4541214D5C44">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-27 17:30:05 UTC</createdTime>
+<createdTime>2023-02-07 22:26:06 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -80,12 +80,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2665DB34-B801-4129-DB9B-99FB426FD2A0" referredColumn="FC0E6B17-99C8-901D-43D2-29975D2AE2B0"/>
+<colAssociation fkAssociation="9B238155-0088-FA68-319F-634567064AE1" referredColumn="DC6BC267-1D61-D90D-6346-CE1F3883A6BA"/>
 </associations>
 </Column>
-<Column name="Cet_Podrska_ID_Podrske" id="17308406-8159-8242-9B3F-AB14BD54A8DB">
+<Column name="Call_centar_id_poziva" id="675A962B-B8C4-AB35-D1A5-4CDC55173F1C">
 <createdBy>asus</createdBy>
-<createdTime>2023-01-27 17:30:12 UTC</createdTime>
+<createdTime>2023-02-07 22:26:36 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -94,21 +94,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9B238155-0088-FA68-319F-634567064AE1" referredColumn="F06AB64F-435A-A09A-C854-52F0F97FFAB4"/>
-</associations>
-</Column>
-<Column name="Call_centar_Podrska_ID_Podrske" id="1B406EDB-A6F1-6A38-8D5C-BC0E3FC22245">
-<createdBy>asus</createdBy>
-<createdTime>2023-01-27 17:30:19 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="FC5E3180-3E08-7D3E-5DEC-C747694BB049" referredColumn="555B965E-40FE-F4D0-C580-1BC344110440"/>
+<colAssociation fkAssociation="FC5E3180-3E08-7D3E-5DEC-C747694BB049" referredColumn="32B47738-563B-446B-C1FA-689DCC05A369"/>
 </associations>
 </Column>
 </columns>
@@ -135,16 +121,6 @@
 <colUsage columnID="4A0CA590-2369-2DFB-9F4C-97D8454288EE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="407C08D6-03A1-C192-4C32-2D59F59DB291" name="Operater_Cet-Boot_FK">
-<createdBy>asus</createdBy>
-<createdTime>2023-01-27 17:30:05 UTC</createdTime>
-<ownerDesignName>Banka</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8B55BFA2-51D2-94E5-16F3-291FCEC6F5EC"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="B81D1645-BFE7-9F0A-83CB-B851DFF60D64" name="Operater_Cet_FK">
 <createdBy>asus</createdBy>
 <createdTime>2023-01-27 17:30:12 UTC</createdTime>
@@ -152,7 +128,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="17308406-8159-8242-9B3F-AB14BD54A8DB"/>
+<colUsage columnID="4B8FB643-070F-16A2-8371-4541214D5C44"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="59B8DB7C-7245-F0A2-F0F4-0E5D125C2535" name="Operater_Call_centar_FK">
@@ -162,7 +138,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1B406EDB-A6F1-6A38-8D5C-BC0E3FC22245"/>
+<colUsage columnID="675A962B-B8C4-AB35-D1A5-4CDC55173F1C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

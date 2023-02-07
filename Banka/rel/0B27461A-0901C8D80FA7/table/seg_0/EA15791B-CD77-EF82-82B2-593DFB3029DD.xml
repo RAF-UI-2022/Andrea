@@ -18,6 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BE08BC6-DA91-4799-9D72-079E57CA1674" referredColumn="247ABFAF-8DFA-FC96-FB70-A44AC1B15DF5"/>
+</associations>
 </Column>
 <Column name="Poruke" id="38C3B471-F0F0-E52B-0C0D-25C7CB82F690">
 <createdBy>asus</createdBy>
@@ -30,6 +33,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Podrska_Banka_ID_Banke" id="16847267-2278-E601-AF93-6AD5D1ED4846">
+<createdBy>asus</createdBy>
+<createdTime>2023-02-07 22:25:19 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BE08BC6-DA91-4799-9D72-079E57CA1674" referredColumn="FB90B169-AB30-AFA3-941C-1F08032F0ED5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="172BCE7F-D326-1263-C265-92C7B7E6B83E" name="Cetv1_PK">
@@ -41,6 +58,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FC0E6B17-99C8-901D-43D2-29975D2AE2B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C7C00E8-50FF-1D4E-B90C-CDB4DE968917" name="Cet-Boot_Podrska_FK">
+<createdBy>asus</createdBy>
+<createdTime>2023-02-07 22:25:19 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0E6B17-99C8-901D-43D2-29975D2AE2B0"/>
+<colUsage columnID="16847267-2278-E601-AF93-6AD5D1ED4846"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -40,6 +40,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Cena" id="A95E7AB2-7A26-208A-F74C-1FEB3F923B93">
+<createdBy>asus</createdBy>
+<createdTime>2023-02-07 22:31:27 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Zaposlen_ID_Zaposlenog" id="4B88B655-B184-9B9D-2B9F-1B8E15F33F5F">
 <createdBy>asus</createdBy>
 <createdTime>2023-01-29 21:27:46 UTC</createdTime>
@@ -58,7 +69,9 @@
 <createdBy>asus</createdBy>
 <createdTime>2023-01-29 21:33:35 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

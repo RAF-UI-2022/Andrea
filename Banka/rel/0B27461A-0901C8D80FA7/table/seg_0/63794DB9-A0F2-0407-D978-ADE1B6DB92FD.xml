@@ -18,6 +18,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Broj_racuna" id="2046A032-CF1D-BB2D-1DF5-4643B9DEFA45">
+<createdBy>asus</createdBy>
+<createdTime>2023-02-07 22:23:54 UTC</createdTime>
+<ownerDesignName>Banka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Korisnik_ID_Korisnika" id="FC9D1D11-BCC8-E18F-1BBE-05E528F5A23F">
 <createdBy>asus</createdBy>
 <createdTime>2022-12-04 23:47:31 UTC</createdTime>

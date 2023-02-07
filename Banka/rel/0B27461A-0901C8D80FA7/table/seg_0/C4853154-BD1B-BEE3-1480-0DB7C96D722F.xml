@@ -52,7 +52,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Cena" id="482138F7-E3C8-2CF9-EE02-5DC5C4F5E008">
+<Column name="Vrednost_sata" id="482138F7-E3C8-2CF9-EE02-5DC5C4F5E008">
 <createdBy>asus</createdBy>
 <createdTime>2023-01-05 13:07:59 UTC</createdTime>
 <ownerDesignName>Banka</ownerDesignName>
